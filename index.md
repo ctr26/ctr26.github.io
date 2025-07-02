@@ -3,11 +3,8 @@ title: Craig T. Russell, PhD
 layout: default
 ---
 
-
-# Craig T. Russell, PhD
-
 **Contact**  
-+44 (0)7521 650931 · craig.russell.phd@gmail.com  
+craig.russell.phd[at]gmail.com  
 [GitHub](https://github.com/ctr26) · [LinkedIn](https://linkedin.com/in/ctr26)
 
 ## Professional Summary
