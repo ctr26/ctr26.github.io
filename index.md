@@ -1,3 +1,9 @@
+---
+title: Craig T. Russell, PhD
+layout: default
+---
+
+
 # Craig T. Russell, PhD
 
 **Contact**  
