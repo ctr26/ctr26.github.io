@@ -4,8 +4,7 @@ layout: default
 ---
 
 # Machine Learning Scientist
-
-**Advancing Drug Discovery Through Virtual Cell Development**
+## Virtual Cell & Drug Discovery Specialist**
 
 📧 [craig.russell.phd@gmail.com](mailto:craig.russell.phd@gmail.com)  
 🔗 [GitHub](https://github.com/ctr26) | [LinkedIn](https://linkedin.com/in/ctr26) | [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
