@@ -1,5 +1,5 @@
 ---
-title: Machine Learning Scientist
+title: Craig T. Russell, PhD
 layout: default
 ---
 
