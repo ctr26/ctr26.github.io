@@ -3,7 +3,7 @@ title: Machine Learning Scientist
 layout: default
 ---
 
-## Virtual Cell & Drug Discovery Specialist**
+## Virtual Cell & Drug Discovery 
 
 📧 [craig.russell.phd@gmail.com](mailto:craig.russell.phd@gmail.com)  
 🔗 [GitHub](https://github.com/ctr26) | [LinkedIn](https://linkedin.com/in/ctr26) | [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
@@ -17,7 +17,7 @@ Machine Learning Scientist specialising in virtual cell development for drug dis
 ### Senior Machine Learning Scientist
 **Valence Labs @ Recursion Pharmaceuticals** | London, UK | Oct 2024 – Present
 
-Leading virtual cell foundation model development at the AI-drug discovery interface:
+Contributing to virtual cell foundation model development at the AI-drug discovery interface:
 - **Virtual Cell Initiative**: Fine-tuning multi-modal LLMs on integrated omics data to create predictive biological models
 - **[TxPert](https://arxiv.org/abs/2505.14919)**: Co-developed SOTA transcriptomic perturbation prediction model with novel systems biology knowledge graph integration
 - **Boltz2 Project**: Contributing to proteome-wide virtual drug screening platform
