@@ -59,6 +59,7 @@ Spearheaded AI initiatives for the Uhlmann Group and Bio-Image Archive:
 **European Nucleotide Archive, EMBL-EBI** | Cambridge, UK | Mar 2020 – Sept 2020
 
 - **[COVID-19 Data Portal](https://www.covid19dataportal.org/)**: CI/CD pipelines enabling daily global data updates
+- **NGS Processing**: Scaled sequence alignment pipelines for large data volumes
 - **Infrastructure**: Containerized ETL pipelines using Nextflow and Kubernetes
 
 ### Computational Microscopist
@@ -70,20 +71,22 @@ Spearheaded AI initiatives for the Uhlmann Group and Bio-Image Archive:
 ## Education
 
 ### PhD in Engineering
-**University of Cambridge** | 2014 – 2018 | EPSRC Funded  
+**University of Cambridge** | 2014 – 2018 | EPSRC PES-CDT Studentship  
 *Thesis*: "Light-sheet microscopy for tracking particles in large specimens"  
+*Focus*: Microscope automation and biological image analysis
 - Designed and built novel light-sheet microscope with automated acquisition
-- Developed homographic signal generation and micrometer-scale tomography algorithms
+- Developed algorithms for particle tracking and optimising signal collection
+- Created homographic signal generation and micrometer-scale tomography algorithms
 - Supervised 3 students (2 MRes, 1 BSc)
 
 ### MRes in Engineering & Physics
 **University of Cambridge & UCL** | 2013 – 2014  
 - Structured illumination microscopy reconstruction software
-- Android accessibility app for London Transport
+- Mobile app development project: accessibility application for London Transport
 
 ### MSci in Physics (First Class Honours)
 **Nottingham Trent University** | 2009 – 2013  
-- Top marks in graduating class
+- Top physics student in graduating class
 - Mountaineering Club President (2011-2012)
 
 ## Selected Publications
@@ -149,7 +152,7 @@ Spearheaded AI initiatives for the Uhlmann Group and Bio-Image Archive:
 ## Grants & Awards
 
 - **AI4LIFE** (2022): Co-investigator on €5M EU grant for federated bioimage AI infrastructure
-- **EPSRC CDT Fellowship** (2013-2018): Full funding for integrated photonics & electronics research (£120k)
+- **EPSRC CDT Studentship** (2013-2018): [Photonic and Electronic Systems CDT](https://www.pes-cdt.org/) full funding (£120k)
 - **Nuffield Research Bursary** (2012): Computer vision for liquid crystal flow analysis
 - **Institute of Physics Grant** (2009-2012): Household means support
 
