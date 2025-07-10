@@ -5,12 +5,18 @@ layout: default
 
 ## Virtual Cell & Drug Discovery 
 
-📧 [craig.russell.phd@gmail.com](mailto:craig.russell.phd@gmail.com)  
-🔗 [GitHub](https://github.com/ctr26) | [LinkedIn](https://linkedin.com/in/ctr26) | [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
+<div class="social-links">
+  <a href="mailto:craig.russell.phd@gmail.com" title="Email"><i class="fa fa-envelope"></i> craig.russell.phd@gmail.com</a>
+  <a href="https://github.com/ctr26" title="GitHub Profile"><i class="fa fa-github"></i> GitHub</a>
+  <a href="https://linkedin.com/in/ctr26" title="LinkedIn Profile"><i class="fa fa-linkedin"></i> LinkedIn</a>
+  <a href="https://scholar.google.com/citations?user=YOUR_ID" title="Google Scholar Profile"><i class="fa fa-graduation-cap"></i> Google Scholar</a>
+</div>
 
 ## Personal Statement
 
+<p style="text-align: justify;">
 Machine Learning Scientist specialising in virtual cell development for drug discovery. Strong background in building multi-modal foundation models that integrate epigenomic, transcriptomic, and phenotypic data. Experienced in applying AI to biological problems across scales, from molecular interactions to whole-organism imaging, with a focus on practical applications in precision medicine.
+</p>
 
 ## Employment History
 

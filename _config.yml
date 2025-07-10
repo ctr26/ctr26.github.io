@@ -2,3 +2,22 @@ title: Craig T. Russell, PhD
 theme: minima
 markdown: kramdown
 
+# Minima settings
+minima:
+  skin: auto  # Automatically switches between light and dark mode
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Site metadata
+author:
+  name: Craig T. Russell, PhD
+  email: craig.russell.phd@gmail.com
+  
+description: >
+  Machine Learning Scientist specialising in virtual cell development 
+  for drug discovery, with expertise in multi-modal foundation models 
+  and biological AI applications.
+
