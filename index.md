@@ -3,14 +3,7 @@ title: Craig T. Russell, PhD
 layout: default
 ---
 
-## Virtual Cell & Drug Discovery 
-
-<div class="social-links">
-  <a href="mailto:craig.russell.phd@gmail.com" title="Email"><i class="fa fa-envelope"></i> craig.russell.phd@gmail.com</a>
-  <a href="https://github.com/ctr26" title="GitHub Profile"><i class="fa fa-github"></i> GitHub</a>
-  <a href="https://linkedin.com/in/ctr26" title="LinkedIn Profile"><i class="fa fa-linkedin"></i> LinkedIn</a>
-  <a href="https://scholar.google.com/citations?user=YOUR_ID" title="Google Scholar Profile"><i class="fa fa-graduation-cap"></i> Google Scholar</a>
-</div>
+## Virtual Cell & Drug Discovery
 
 ## Personal Statement
 

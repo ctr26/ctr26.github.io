@@ -24,38 +24,3 @@ article p {
 .page-content p {
   margin-bottom: 1.2em;
 }
-
-/* Social links styling */
-.social-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  margin: 1rem 0 2rem 0;
-  font-size: 0.95rem;
-}
-
-.social-links a {
-  text-decoration: none;
-  color: #333;
-  transition: color 0.3s ease;
-}
-
-.social-links a:hover {
-  color: #0366d6;
-}
-
-.social-links i {
-  margin-right: 0.4rem;
-  font-size: 1.1em;
-}
-
-/* Dark mode support if using Minima's dark skin */
-@media (prefers-color-scheme: dark) {
-  .social-links a {
-    color: #ddd;
-  }
-  
-  .social-links a:hover {
-    color: #58a6ff;
-  }
-}

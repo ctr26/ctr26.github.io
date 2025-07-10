@@ -5,6 +5,21 @@ markdown: kramdown
 # Minima settings
 minima:
   skin: auto  # Automatically switches between light and dark mode
+  
+  # Social links
+  social_links:
+    - title: Email
+      icon: envelope
+      url: "mailto:craig.russell.phd@gmail.com"
+    - title: GitHub Profile
+      icon: github
+      url: "https://github.com/ctr26"
+    - title: LinkedIn Profile
+      icon: linkedin
+      url: "https://linkedin.com/in/ctr26"
+    - title: Google Scholar Profile
+      icon: graduation-cap
+      url: "https://scholar.google.com/citations?user=YOUR_ID"
 
 # Build settings
 plugins:
