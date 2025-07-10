@@ -7,76 +7,65 @@ layout: default
 
 **Machine Learning Scientist | Virtual Cell & Drug Discovery Specialist**
 
-📧 [craig.russell.phd@gmail.com](mailto:craig.russell.phd@gmail.com) | 📱 +44 (0)7521 650931  
+📧 [craig.russell.phd@gmail.com](mailto:craig.russell.phd@gmail.com)  
 🔗 [GitHub](https://github.com/ctr26) | [LinkedIn](https://linkedin.com/in/ctr26) | [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
 
 ## Personal Statement
 
-Experienced Machine Learning Scientist and Engineer pioneering the development of virtual cells for drug discovery. Proven track record in multi-modal foundation models, combining epigenomic, transcriptomic, and phenotypic data to advance precision medicine. Expert in bridging cutting-edge AI research with practical biological applications, from molecular interactions to whole-organism imaging.
+Machine Learning Scientist specialising in virtual cell development for drug discovery. Strong background in building multi-modal foundation models that integrate epigenomic, transcriptomic, and phenotypic data. Experienced in applying AI to biological problems across scales, from molecular interactions to whole-organism imaging, with a focus on practical applications in precision medicine.
 
 ## Employment History
 
 ### Senior Machine Learning Scientist
-**Valence Labs | Recursion Pharmaceuticals** | London, UK | Oct 2024 – Present
+**Valence Labs @ Recursion Pharmaceuticals** | London, UK | Oct 2024 – Present
 
-Leading virtual cell foundation model development at the intersection of AI and drug discovery:
-- **Virtual Cell Initiative**: Fine-tuning multi-modal LLMs on integrated omics data (epigenomic, transcriptomic, phenotypic) to create predictive biological models
-- **[TxPert](https://arxiv.org/abs/2505.14919)**: Co-developed state-of-the-art transcriptomic perturbation prediction model, achieving breakthrough performance on out-of-distribution predictions through novel integration of systems biology knowledge graphs
-- **Boltz2 Project**: Contributing to proteome-wide virtual drug screening platform, enabling rapid identification of drug-protein interactions
-- **Community Leadership**: Leading weekly Virtual Cell Journal Club, fostering cross-functional collaboration between ML engineers and biologists
+Leading virtual cell foundation model development at the AI-drug discovery interface:
+- **Virtual Cell Initiative**: Fine-tuning multi-modal LLMs on integrated omics data to create predictive biological models
+- **[TxPert](https://arxiv.org/abs/2505.14919)**: Co-developed SOTA transcriptomic perturbation prediction model with novel systems biology knowledge graph integration
+- **Boltz2 Project**: Contributing to proteome-wide virtual drug screening platform
+- **Community Leadership**: Virtual Cell Journal Club organizer
 
 ### Senior Research Associate & AI Engineering Lead
 **EMBL-EBI** | Cambridge, UK | Dec 2022 – Oct 2024
 
 Spearheaded AI initiatives for the Uhlmann Group and Bio-Image Archive:
-- **Team Leadership**: Supervised 6 PhD students, establishing coding standards, test-driven development practices, and peer review processes
-- **Spatial Biology Research**: Developed novel deep learning approaches for high-content cell morphology analysis, enabling drug discovery applications
-- **Representation Learning**: Created [bioimage_embed](https://github.com/ctr26/bioimage_embed), a self-supervised learning framework for biological image analysis
-- **MLOps Infrastructure**: Built scalable representation learning pipelines processing TB-scale microscopy datasets
-- **Academic Contributions**: Reviewer for ISBI 2022, ISBI 2023, and ICASP 2024
+- **Leadership**: Supervised 6 PhD students, establishing coding standards and peer review processes
+- **Spatial Biology**: Developed deep learning approaches for high-content cell morphology analysis
+- **[bioimage_embed](https://github.com/ctr26/bioimage_embed)**: Created self-supervised learning framework for biological images
+- **MLOps**: Built scalable pipelines processing TB-scale microscopy datasets
+- **Academic Service**: Reviewer for ISBI 2022/2023, ICASP 2024
 
-### AI/ML Engineering Consultant & Founding Engineer
+### AI/ML Founding Engineer
 **Amun AI AB** | Stockholm, Sweden | 2022 – 2024
 
-Founding engineer at AI biotech startup:
-- **NVIDIA Collaboration**: Partnered on scalable Kubernetes-based model serving infrastructure
-- **Production Deployment**: Architected GKE infrastructure serving 100+ models to 30+ daily users
-- **Platform Development**: Built core infrastructure for distributed AI computing
+- **NVIDIA Partnership**: Scalable Kubernetes-based model serving infrastructure
+- **Production Systems**: GKE infrastructure serving 100+ models to 30+ daily users
 
 ### AI/ML Engineering Consultant
 **DeepMirror** | Cambridge & London, UK | 2022 – 2024
 
-Delivered high-impact AI solutions and managed client consultancy:
-- **[MouseMindMapper](https://github.com/DeepMirror/MouseMindMapper)**: Developed automated brain histology segmentation pipeline generating £50k annual revenue
-- **Cheminformatics**: Implemented high-performance C++ molecular fingerprinting library
-- **Client Management**: Led technical consultancy projects for biotech clients
+- **[MouseMindMapper](https://github.com/DeepMirror/MouseMindMapper)**: Automated brain histology segmentation (£50k annual revenue)
+- **Cheminformatics**: High-performance C++ molecular fingerprinting library
 
 ### Data Scientist
 **Brazma Group, EMBL-EBI** | Cambridge, UK | Dec 2019 – Dec 2023
 
-Advanced bioimage analysis through deep learning:
-- **Educational Impact**: Designed and delivered annual deep learning courses to 40+ participants (PhD to PI level)
-- **[AI4LIFE Grant](https://ai4life.eurobioimaging.eu/)**: Co-wrote successful €5M grant proposal to scale and federate bioimage AI
-- **Image Data Resource**: Applied AI and segmentation at scale to make large microscopy datasets more accessible
-- **Google Cloud Partnership**: Established collaboration for big-data representation learning
-- **Large-scale Analysis**: Deployed oncology image segmentation pipelines processing millions of cells
+- **Education**: Annual deep learning courses for 40+ participants (PhD to PI level)
+- **[AI4LIFE Grant](https://ai4life.eurobioimaging.eu/)**: Co-wrote successful €5M proposal
+- **Image Data Resource**: Large-scale AI-driven microscopy analysis
+- **Industry Partnerships**: Google Cloud collaboration for representation learning
 
 ### Software Engineer (COVID-19 Response)
 **European Nucleotide Archive, EMBL-EBI** | Cambridge, UK | Mar 2020 – Sept 2020
 
-Rapid deployment of pandemic data infrastructure:
-- **[COVID-19 Data Portal](https://www.covid19dataportal.org/)**: Developed CI/CD pipelines enabling daily updates of global pandemic data
-- **Sequence Processing**: Scaled up sequence alignment pipelines to handle unprecedented data volumes
-- **Workflow Orchestration**: Containerized ETL pipelines using Nextflow and Kubernetes
-- **Impact**: Platform served millions of queries supporting global research efforts
+- **[COVID-19 Data Portal](https://www.covid19dataportal.org/)**: CI/CD pipelines enabling daily global data updates
+- **Infrastructure**: Containerized ETL pipelines using Nextflow and Kubernetes
 
 ### Computational Microscopist
 **National Physical Laboratory** | London, UK | 2018 – Dec 2019
 
-Pioneered computational microscopy techniques:
-- Developed novel 3D organoid segmentation algorithms for cancer research
-- Consulted for MSquared on advanced imaging solutions
-- Created open-source tools for microscopy data analysis
+- Novel 3D organoid segmentation algorithms for cancer research
+- MSquared consultancy on advanced imaging solutions
 
 ## Education
 
@@ -84,8 +73,7 @@ Pioneered computational microscopy techniques:
 **University of Cambridge** | 2014 – 2018 | EPSRC Funded  
 *Thesis*: "Light-sheet microscopy for tracking particles in large specimens"  
 - Designed and built novel light-sheet microscope with automated acquisition
-- Developed homographic signal generation algorithms
-- Created reconstruction algorithms for micrometer-scale tomography
+- Developed homographic signal generation and micrometer-scale tomography algorithms
 - Supervised 3 students (2 MRes, 1 BSc)
 
 ### MRes in Engineering & Physics
@@ -130,21 +118,15 @@ Pioneered computational microscopy techniques:
 
 ### Machine Learning & AI
 - **Foundation Models**: Multi-modal LLM fine-tuning, OOD prediction, self-supervised learning
-- **Deep Learning**: PyTorch (5+ years), TensorFlow, Lightning, probabilistic programming (Pyro.ai), Hugging Face ecosystem
-- **Computer Vision**: Bio-image analysis, 3D reconstruction, deconvolution, super-resolution
-- **Graph Neural Networks**: Systems biology integration, molecular property prediction
-- **Biological Data Modalities**: snRNAseq, bulk RNAseq, histopathology, fluorescence imaging
+- **Deep Learning**: PyTorch, TensorFlow, Lightning, probabilistic programming (Pyro.ai), Hugging Face
+- **Computer Vision**: Bio-image analysis, 3D reconstruction, segmentation, super-resolution
+- **Biological Data**: snRNAseq, bulk RNAseq, histopathology, fluorescence imaging, GNNs for systems biology
 
-### Programming & Scientific Computing
+### Programming & Infrastructure
 - **Languages**: Python (8+ years), R, MATLAB, C++, Java
-- **Frameworks**: NumPy, SciPy, Pandas, scikit-learn, OpenCV, scikit-image
+- **Scientific Computing**: NumPy, SciPy, Pandas, scikit-learn, OpenCV, scikit-image
+- **Cloud & DevOps**: GCP, AWS, Kubernetes, Docker, CI/CD, Terraform
 - **Workflow Management**: Snakemake, Nextflow, Apache Airflow
-- **High-Performance Computing**: SLURM, LSF, distributed computing
-
-### Cloud & Infrastructure
-- **Platforms**: Google Cloud Platform, OpenStack, AWS
-- **Container Orchestration**: Kubernetes, Docker, Helm, Helmsman
-- **DevOps**: CI/CD, GitHub Actions, Terraform, GitOps
 - **Model Deployment**: NVIDIA Triton, KServe, MLflow
 
 ## Open Source Projects
@@ -171,7 +153,7 @@ Pioneered computational microscopy techniques:
 - **Nuffield Research Bursary** (2012): Computer vision for liquid crystal flow analysis
 - **Institute of Physics Grant** (2009-2012): Household means support
 
-## Teaching & Mentorship
+## Teaching & Leadership
 
 ### Course Development & Delivery
 - **Deep Learning for Bioimage Analysis** (2019-2023): Annual course at EMBL-EBI for 40+ participants
@@ -180,28 +162,19 @@ Pioneered computational microscopy techniques:
 - **Quantum Mechanics & Scientific Ethics** (2014-2016): Reach Summer School, Cambridge
 
 ### Research Supervision
-- 6 PhD students in AI and computer vision for spatial biology (2022-2024)
-- 3 project students during PhD: 2 MRes, 1 BSc (2014-2018)
+- 6 PhD students in AI and spatial biology (2022-2024)
+- 3 project students during PhD (2014-2018)
 
-## Conference Presentations
-
-- Focus on Microscopy (FOM): 2018, 2022, 2023
-- Microscience Microscopy Congress (MMC): 2018, 2022
-- Computational BioImage Analysis Summer School (CBIAS): 2023
+### Community Leadership
+- Lower Boats Captain & Coach, Magdalene College (2014-2018)
+- Mountaineering Club President, NTU (2011-2012)
 
 ## Professional Service
 
 - **Peer Review**: Nature Methods, Scientific Reports, Journal of Microscopy, ISBI, ICASP
-- **Community Leadership**: Virtual Cell Journal Club organizer, Magdalene College IT Representative
+- **Conference Presentations**: FOM (2018, 2022, 2023), MMC (2018, 2022), CBIAS (2023)
 - **Open Source**: Maintainer of multiple scientific software packages
 - **Professional Membership**: Institute of Physics
-
-## Additional Experience
-
-### Leadership Roles
-- **Lower Boats Captain & Coach**, Magdalene Boat Club, Cambridge (2014-2018)
-- **Mountaineering Club President**, Nottingham Trent University (2011-2012)
-  - Organized Alps expedition for 40 participants
 
 ---
 
