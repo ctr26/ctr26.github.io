@@ -3,9 +3,9 @@ title: Craig T. Russell, PhD
 layout: default
 ---
 
-# Craig T. Russell, PhD
+# Machine Learning Scientist
 
-**Machine Learning Scientist | Virtual Cell & Drug Discovery Specialist**
+**Advancing Drug Discovery Through Virtual Cell Development**
 
 📧 [craig.russell.phd@gmail.com](mailto:craig.russell.phd@gmail.com)  
 🔗 [GitHub](https://github.com/ctr26) | [LinkedIn](https://linkedin.com/in/ctr26) | [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
