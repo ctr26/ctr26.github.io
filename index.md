@@ -3,356 +3,191 @@ title: Craig T. Russell, PhD
 layout: default
 ---
 
-```markdown
 # Craig T. Russell, PhD
 
-**Contact**  
-+44 (0)7521 650931 · craig.russell.phd@gmail.com  
-[GitHub](https://github.com/ctr26) · [LinkedIn](https://linkedin.com/in/ctr26)
+**Machine Learning Scientist | Virtual Cell & Drug Discovery Specialist**
 
-## Professional Summary
+📧 [craig.russell.phd@gmail.com](mailto:craig.russell.phd@gmail.com) | 📱 +44 (0)7521 650931  
+🔗 [GitHub](https://github.com/ctr26) | [LinkedIn](https://linkedin.com/in/ctr26) | [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
 
-Machine Learning Scientist and Engineer specialising in virtual cells for drug discovery. Extensive experience in multi-omics modelling, foundation models and systems biology integrations.
+## Personal Statement
 
-        WARNING - You have used 81.65% of your home directory
+Experienced Machine Learning Scientist and Engineer pioneering the development of virtual cells for drug discovery. Proven track record in multi-modal foundation models, combining epigenomic, transcriptomic, and phenotypic data to advance precision medicine. Expert in bridging cutting-edge AI research with practical biological applications, from molecular interactions to whole-organism imaging.
 
-Submitted batch job 9988417
-Connection to slclogin2 closed.
+## Employment History
 
-~ 14s
-base ❯ sft logout && sft login
-Waiting on browser...
-Browser step completed successfully.
-Session expires in 24h0m0s
+### Senior Machine Learning Scientist
+**Valence Labs | Recursion Pharmaceuticals** | London, UK | Oct 2024 – Present
 
-~ 7s
-base ❯ ssh slclogin2 -t "bash -l -c 'sbatch tunnel.sbatch'"
+Leading virtual cell foundation model development at the intersection of AI and drug discovery:
+- **Virtual Cell Initiative**: Fine-tuning multi-modal LLMs on integrated omics data (epigenomic, transcriptomic, phenotypic) to create predictive biological models
+- **[TxPert](https://arxiv.org/abs/2505.14919)**: Co-developed state-of-the-art transcriptomic perturbation prediction model, achieving breakthrough performance on out-of-distribution predictions through novel integration of systems biology knowledge graphs
+- **Boltz2 Project**: Contributing to proteome-wide virtual drug screening platform, enabling rapid identification of drug-protein interactions
+- **Community Leadership**: Leading weekly Virtual Cell Journal Club, fostering cross-functional collaboration between ML engineers and biologists
 
+### Senior Research Associate & AI Engineering Lead
+**EMBL-EBI** | Cambridge, UK | Dec 2022 – Oct 2024
 
+Spearheaded AI initiatives for the Uhlmann Group and Bio-Image Archive:
+- **Team Leadership**: Supervised 6 PhD students, establishing coding standards, test-driven development practices, and peer review processes
+- **Spatial Biology Research**: Developed novel deep learning approaches for high-content cell morphology analysis, enabling drug discovery applications
+- **MLOps Infrastructure**: Built scalable representation learning pipelines processing TB-scale microscopy datasets
+- **Academic Contributions**: Reviewer for ISBI 2022, ISBI 2023, and ICASP 2024
 
-        WARNING - You have used 81.62% of your home directory
+### AI/ML Engineering Consultant
+**DeepMirror & Amun AI AB** | Cambridge, London & Stockholm | 2022 – 2024
 
-Submitted batch job 10043155
-Connection to slclogin2 closed.
+Delivered high-impact AI solutions for biotech startups:
+- **[MouseMindMapper](https://github.com/DeepMirror/MouseMindMapper)**: Developed automated brain histology segmentation pipeline generating £50k annual revenue
+- **NVIDIA Collaboration**: Partnered on scalable Kubernetes-based model serving infrastructure
+- **Production Deployment**: Architected GKE infrastructure serving 100+ models to 30+ daily users
+- **Cheminformatics**: Implemented high-performance C++ molecular fingerprinting library
 
-~ 16s
-base ❯ sft logout && sft login
-error: Post "https://app.scaleft.com/v1/refresh_client_token": dial tcp 52.223.9.96:443: i/o timeout
+### Data Scientist
+**Brazma Group, EMBL-EBI** | Cambridge, UK | Dec 2019 – Dec 2023
 
-~ 49s
-base ❯ sft logout && sft login
-Waiting on browser...
-Browser step completed successfully.
-Session expires in 24h0m0s
+Advanced bioimage analysis through deep learning:
+- **Educational Impact**: Designed and delivered annual deep learning courses to 40+ participants (PhD to PI level)
+- **[AI4LIFE Grant](https://ai4life.eurobioimaging.eu/)**: Co-wrote successful €5M grant proposal to scale and federate bioimage AI
+- **Google Cloud Partnership**: Established collaboration for big-data representation learning
+- **Large-scale Analysis**: Deployed oncology image segmentation pipelines processing millions of cells
 
-~ 9s
-base ❯ ssh slclogin2 -t "bash -l -c 'sbatch tunnel.sbatch'"
+### Software Engineer (COVID-19 Response)
+**European Nucleotide Archive, EMBL-EBI** | Cambridge, UK | Mar 2020 – Sept 2020
 
+Rapid deployment of pandemic data infrastructure:
+- **[COVID-19 Data Portal](https://www.covid19dataportal.org/)**: Developed CI/CD pipelines enabling daily updates of global pandemic data
+- **Workflow Orchestration**: Containerized ETL pipelines using Nextflow and Kubernetes
+- **Impact**: Platform served millions of queries supporting global research efforts
 
+### Computational Microscopist
+**National Physical Laboratory** | London, UK | 2018 – Dec 2019
 
-        WARNING - You have used 81.62% of your home directory
-
-Submitted batch job 10084418
-Connection to slclogin2 closed.
-
-~ 19s
-base ❯ sft logout && sft login
-Waiting on browser...
-Browser step completed successfully.
-Session expires in 24h0m0s
-
-~ 6s
-base ❯ ssh slclogin2 -t "bash -l -c 'sbatch tunnel.sbatch'"
-
-
-
-        WARNING - You have used 81.62% of your home directory
-
-Submitted batch job 10114015
-Connection to slclogin2 closed.
-
-~ 14s
-base ❯ ssh slclogin2 -t "bash -l -c 'sbatch tunnel.sbatch'"
-
-
-
-        WARNING - You have used 81.62% of your home directory
-
-Submitted batch job 10125343
-Connection to slclogin2 closed.
-
-~ 15s
-base ❯ git clone
-fatal: You must specify a repository to clone.
-
-usage: git clone [<options>] [--] <repo> [<dir>]
-
-    -v, --verbose         be more verbose
-    -q, --quiet           be more quiet
-    --progress            force progress reporting
-    --reject-shallow      don't clone shallow repository
-    -n, --no-checkout     don't create a checkout
-    --bare                create a bare repository
-    --mirror              create a mirror repository (implies bare)
-    -l, --local           to clone from a local repository
-    --no-hardlinks        don't use local hardlinks, always copy
-    -s, --shared          setup as shared repository
-    --recurse-submodules[=<pathspec>]
-                          initialize submodules in the clone
-    --recursive ...       alias of --recurse-submodules
-    -j, --jobs <n>        number of submodules cloned in parallel
-    --template <template-directory>
-                          directory from which templates will be used
-    --reference <repo>    reference repository
-    --reference-if-able <repo>
-                          reference repository
-    --dissociate          use --reference only while cloning
-    -o, --origin <name>   use <name> instead of 'origin' to track upstream
-    -b, --branch <branch>
-                          checkout <branch> instead of the remote's HEAD
-    -u, --upload-pack <path>
-                          path to git-upload-pack on the remote
-    --depth <depth>       create a shallow clone of that depth
-    --shallow-since <time>
-                          create a shallow clone since a specific time
-    --shallow-exclude <revision>
-                          deepen history of shallow clone, excluding rev
-    --single-branch       clone only one branch, HEAD or --branch
-    --no-tags             don't clone any tags, and make later fetches not to follow them
-    --shallow-submodules  any cloned submodules will be shallow
-    --separate-git-dir <gitdir>
-                          separate git dir from working tree
-    -c, --config <key=value>
-                          set config inside the new repository
-    --server-option <server-specific>
-                          option to transmit
-    -4, --ipv4            use IPv4 addresses only
-    -6, --ipv6            use IPv6 addresses only
-    --filter <args>       object filtering
-    --also-filter-submodules
-                          apply partial clone filters to submodules
-    --remote-submodules   any cloned submodules will use their remote-tracking branch
-    --sparse              initialize sparse-checkout file to include only files
-at root
-    --bundle-uri <uri>    a URI for downloading bundles before fetching from origin remote
-
-
-~
-base ❯ git clone https://github.com/ctr26/ctr26.github.io
-Cloning into 'ctr26.github.io'...
-remote: Enumerating objects: 54, done.
-remote: Total 54 (delta 0), reused 0 (delta 0), pack-reused 54 (from 1)
-Receiving objects: 100% (54/54), 760.34 KiB | 6.39 MiB/s, done.
-
-~
-base ❯ nvim cv.md
-
-~ 26s
-base ❯ mv cv.md ctr26.github.io
-
-~
-base ❯ cd ctr26.github.io
-
-~/ctr26.github.io master*
-base ❯ nvim cv.md
-
-~/ctr26.github.io master*
-base ❯ rm index.html
-
-~/ctr26.github.io master*
-base ❯ mv cv.md index.md
-
-~/ctr26.github.io master*
-base ❯ git add .
-
-~/ctr26.github.io master*
-base ❯ git commit -m "cv"
-[master 9597b59] cv
- 2 files changed, 92 insertions(+), 463 deletions(-)
- delete mode 100644 index.html
- create mode 100644 index.md
-
-~/ctr26.github.io master ⇡
-base ❯ git push
-Enumerating objects: 4, done.
-Counting objects: 100% (4/4), done.
-Delta compression using up to 14 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 2.30 KiB | 2.30 MiB/s, done.
-Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-To https://github.com/ctr26/ctr26.github.io
-   5d2d519..9597b59  master -> master
-
-~/ctr26.github.io master
-base ❯ nvim cv.md
-
-~/ctr26.github.io master 8s
-base ❯ nvim index.md
-
-~/ctr26.github.io master 7s
-base ❯ git status -u .
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   index.md
-
-no changes added to commit (use "git add" and/or "git commit -a")
-~/ctr26.github.io master*
-base ❯ git add .
-
-~/ctr26.github.io master*
-base ❯ git commit -m "cv"
-[master 4c1ab17] cv
- 1 file changed, 6 insertions(+)
-
-~/ctr26.github.io master ⇡
-base ❯ git push
-Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done.
-Delta compression using up to 14 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 320 bytes | 320.00 KiB/s, done.
-Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To https://github.com/ctr26/ctr26.github.io
-   9597b59..4c1ab17  master -> master
-
-~/ctr26.github.io master
-base ❯ nvim _config.yml
-
-~/ctr26.github.io master*
-base ❯ git add .
-
-~/ctr26.github.io master*
-base ❯ git commit -m "cv"
-[master 59832ad] cv
- 1 file changed, 4 insertions(+)
- create mode 100644 _config.yml
-
-~/ctr26.github.io master ⇡
-base ❯ git push
-Enumerating objects: 4, done.
-Counting objects: 100% (4/4), done.
-Delta compression using up to 14 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 342 bytes | 342.00 KiB/s, done.
-Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-To https://github.com/ctr26/ctr26.github.io
-   4c1ab17..59832ad  master -> master
-
-~/ctr26.github.io master
-base ❯ nvim _config.yml
-
-~/ctr26.github.io master
-base ❯ nvim index.md
-  index.md  󰅖
-
- 15   ---
-  14   title: Craig T. Russell, PhD
-  13   layout: default
-  12   ---
-  11
-  10 ▎ ```markdown
-   9 ▎ # Craig T. Russell, PhD
-   8 ▎
-   7   **Contact**
-   6 ▎ +44 (0)7521 650931 · craig.russell.phd@gmail.com
-   5   [GitHub](https://github.com/ctr26) · [LinkedIn](https://linkedin.com/in/c
-   4
-   3   ## Professional Summary
-   2
-   1 ▎ Machine Learning Scientist and Engineer specialising in virtual cells for
-  16
-   1   ## Technical Skills
-   2
-   3 ▎ - **Scientific & Analytical**: Data science, scientific writing, grant wr
-   4 ▎ - **Image & Signal Processing**: Bio-image analysis, inverse problems, im
-   5 ▎ - **Machine Learning & Modelling**: Deep learning, MLOps, multi-modal LLM
-    master    markdown     42  23  40                TS   16:1  16% ▂▂
-[1] <index.md + (~/ctr26.github.io) - Nv>"index.md + (~/ctr26.g" 16:54 02-Jul-25
-## Technical Skills
-
-- **Scientific & Analytical**: Data science, scientific writing, grant writing, independent research, problem solving
-- **Image & Signal Processing**: Bio-image analysis, inverse problems, image processing, deconvolution, denoising
-- **Machine Learning & Modelling**: Deep learning, MLOps, multi-modal LLM finetuning, graph neural networks
-- **Programming**: Python (8 yrs), R, MATLAB, Java, C, NumPy, SciPy, OpenCV, scikit-learn, scikit-image, PyTorch, pyro.ai, TensorFlow, Keras, Lightning, Skorch, Pandas, Seaborn, Matplotlib
-- **Cloud & Infrastructure**: Bash, Unix, Git, CI/CD, Make, GitHub Actions, Kubernetes, Docker, Snakemake, Nextflow, SLURM, LSF, HPC, conda, pipenv, gcloud CLI, openstack CLI, Helm, Helmsman, Terraform, GCP, OpenStack
-- **Development Tools**: Cursor, VSCode, NeoVim, tmux
-- **Mathematics**: Applied mathematics, discrete mathematics
+Pioneered computational microscopy techniques:
+- Developed novel 3D organoid segmentation algorithms for cancer research
+- Consulted for MSquared on advanced imaging solutions
+- Created open-source tools for microscopy data analysis
 
 ## Education
 
-**PhD Engineering** (EPSRC)  
-Cambridge University, 2014 – 2018  
-Thesis: Light-sheet microscopy for particle tracking; supervised three project students
+### PhD in Engineering
+**University of Cambridge** | 2014 – 2018 | EPSRC Funded  
+*Thesis*: "Light-sheet microscopy for tracking particles in large specimens"  
+- Designed and built novel light-sheet microscope with automated acquisition
+- Developed homographic signal generation algorithms
+- Created reconstruction algorithms for micrometer-scale tomography
+- Supervised 3 students (2 MRes, 1 BSc)
 
-**MRes Engineering & Physics**  
-Cambridge University & UCL, 2013 – 2014  
-Projects in structured illumination and assistive Android app development
+### MRes in Engineering & Physics
+**University of Cambridge & UCL** | 2013 – 2014  
+- Structured illumination microscopy reconstruction software
+- Android accessibility app for London Transport
 
-**MSci Physics (First Class)**  
-Nottingham Trent University, 2009 – 2013  
-Awarded Nuffield and IOP bursaries
+### MSci in Physics (First Class Honours)
+**Nottingham Trent University** | 2009 – 2013  
+- Presidential award for academic excellence
+- Mountaineering Club President (2011-2012)
 
-</div>
+## Selected Publications
 
-<!-- Right Column -->
-<div style="flex: 1 1 45%; padding-left: 2em; box-sizing: border-box;">
+1. **Russell, C.T.**, et al. (2025). "TxPert: Leveraging Biochemical Relationships for Out-of-Distribution Perturbation Prediction." *arXiv preprint* [arXiv:2505.14919](https://arxiv.org/abs/2505.14919).
 
-## Employment
+2. Gómez-de-Mariscal, E., **Russell, C.T.**, et al. (2024). "DL4MicEverywhere: Deep learning for microscopy made flexible, shareable and reproducible." *Nature Methods* 21:925–927. [DOI](https://doi.org/10.1038/s41592-024-02295-6).
 
-**Senior Machine Learning Scientist**  
-Valence Labs | Recursion Pharmaceuticals, London  
-Oct 2024 – Present  
-- Fine-tuned multi-modal LLMs on epigenomic, transcriptomic and phenotypic data  
-- Co-developed TxPert, achieving SOTA transcriptomic perturbation prediction  
-- Contributed to proteome-wide virtual drug screening (Boltz2)  
-- Lead Virtual Cell journal club
+3. **Russell, C.T.**, Shaw, M. (2021). "mmSIM: An open toolbox for accessible structured illumination microscopy." *Philosophical Transactions A* 379(2199):20200353. [DOI](https://doi.org/10.1098/rsta.2020.0353).
 
-**Senior Research Associate & AI Engineer**  
-Uhlmann Group & Bio-Image Archive, EMBL-EBI, Cambridge  
-Dec 2022 – Oct 2024  
-- Supervised 6 PhD students; established TDD, code reviews and standards  
-- Led deep learning research in spatial biology and high-content morphology  
-- Implemented representation learning pipelines and MLOps workflows
+4. Harrison, P.W., Lopez, R., Rahman, N., **Russell, C.T.**, et al. (2021). "The COVID-19 Data Portal: accelerating SARS-CoV-2 and COVID-19 research through rapid open access data sharing." *Nucleic Acids Research* 49(W1):W619-W623. [DOI](https://doi.org/10.1093/nar/gkab417).
 
-**AI/ML & Cloud Engineer**  
-DeepMirror & Amun AI AB, Cambridge, London & Stockholm  
-2022 – 2024  
-- Delivered image-segmentation pipelines (MouseMindMapper: £50k pa)  
-- Built C++ cheminformatics libraries; collaborated with NVIDIA on K8s model serving  
-- Deployed GKE infrastructure for ~100 models, 30+ daily users
+5. **Russell, C.T.**, Vallejo Ramirez, P.P., Rees, E.J. (2021). "Frame localisation optical projection tomography." *Scientific Reports* 11:4551. [DOI](https://doi.org/10.1038/s41598-021-84002-5).
 
-**Data Scientist**  
-Brazma Group, EMBL-EBI, Cambridge  
-Dec 2019 – Dec 2023  
-- Designed and taught annual deep learning courses (40+ PhD-PI cohorts)  
-- Co-wrote €5M AI4LIFE grant; led large-scale oncology image segmentation  
-- Partnered with Google Cloud for big-data representation learning
+6. **Russell, C.T.**, Rees, E.J. (2020). "An open-hardware sample mounting solution for inverted lightsheet microscopes." *Journal of Microscopy* 280(3):233-241. [DOI](https://doi.org/10.1111/jmi.12935).
 
-**Software Engineer (Secondment)**  
-Covid Response Team, ENA – EMBL-EBI, Cambridge  
-Mar 2020 – Sept 2020  
-- Developed robust CI/CD pipelines; containerised ETL workflows with Nextflow & K8s
+7. Hammond, K., Lewis, H., Faruqui, N., **Russell, C.T.**, et al. (2019). "Helminth Defense Molecules as Design Templates for Membrane Active Antibiotics." *ACS Infectious Diseases* 5(8):1471-1479. [DOI](https://doi.org/10.1021/acsinfecdis.9b00157).
 
-**Computational Microscopist**  
-National Physical Laboratory, London  
-2018 – Dec 2019  
-- Pioneered novel microscopy image-analysis algorithms and 3D organoid segmentation
+8. **Russell, C.T.**, Rees, E.J., Kaminski, C.F. (2018). "Homographically generated light sheets for the microscopy of large specimens." *Optics Letters* 43(4):663-666. [DOI](https://doi.org/10.1364/OL.43.000663).
 
-## Publications & Projects
+9. **Russell, C.T.**, et al. (2016). "Flow-induced delayed Freedericksz transition." *Physical Review E* 93(3):030701. [DOI](https://doi.org/10.1103/PhysRevE.93.030701).
 
-- *TxPert: Leveraging Biochemical Relationships for OOD Perturbation Prediction* (arXiv 2505.14919, 2025)  
-- *DL4MicEverywhere*, Nature Methods 21:925 (2024)  
-- *COVID-19 Data Portal*, NAR 49:W619 (2021)  
-- GitHub: shape_embed · bioimage_embed · pydeconv · nuclear_phenotyping · hypha & helm charts
+10. Dumortier, J.G., Tanasa, R.A., **Russell, C.T.**, et al. "Protrusion-mediated cell adhesion determines viscosity." *Nature Materials* (in review).
 
-</div>
+[View all publications on Google Scholar →](https://scholar.google.com/citations?user=YOUR_ID)
 
-</div>
-```
+## Technical Skills
+
+### Machine Learning & AI
+- **Foundation Models**: Multi-modal LLM fine-tuning, OOD prediction, self-supervised learning
+- **Deep Learning**: PyTorch (5+ years), TensorFlow, Lightning, probabilistic programming (Pyro.ai)
+- **Computer Vision**: Bio-image analysis, 3D reconstruction, deconvolution, super-resolution
+- **Graph Neural Networks**: Systems biology integration, molecular property prediction
+
+### Programming & Scientific Computing
+- **Languages**: Python (8+ years), R, MATLAB, C++, Java
+- **Frameworks**: NumPy, SciPy, Pandas, scikit-learn, OpenCV, scikit-image
+- **Workflow Management**: Snakemake, Nextflow, Apache Airflow
+- **High-Performance Computing**: SLURM, LSF, distributed computing
+
+### Cloud & Infrastructure
+- **Platforms**: Google Cloud Platform, OpenStack, AWS
+- **Container Orchestration**: Kubernetes, Docker, Helm, Helmsman
+- **DevOps**: CI/CD, GitHub Actions, Terraform, GitOps
+- **Model Deployment**: NVIDIA Triton, KServe, MLflow
+
+## Open Source Projects
+
+### Major Contributions
+
+- **[bioimage_embed](https://github.com/ctr26/bioimage_embed)**: Self-supervised learning framework for biological image analysis
+- **[shape_embed](https://github.com/ctr26/shape_embed)**: Deep learning toolkit for cell shape analysis
+- **[pydeconv](https://github.com/ctr26/pydeconv)**: GPU-accelerated deconvolution library for microscopy
+- **[nuclear_phenotyping](https://github.com/ctr26/nuclear_phenotyping)**: Automated nuclear morphology analysis pipeline
+
+### Infrastructure Projects
+
+- **[Hypha Platform](https://hypha.imjoy.io/)**: Distributed computing platform for bioimage analysis
+- **[BioImage Model Zoo](https://bioimage.io)**: Community-driven repository for deep learning models
+- **[BIA Binder](https://binder.bioimagearchive.org/)**: Interactive notebook platform for bioimage analysis
+- **[Hypha Helm Charts](https://github.com/amun-ai/hypha-helm-charts)**: Kubernetes deployment templates
+- **[COVID Workflow Manager](https://github.com/enasequence/covid-workflow-manager)**: ETL pipeline orchestration
+
+## Grants & Awards
+
+- **AI4LIFE** (2022): Co-investigator on €5M EU grant for federated bioimage AI infrastructure
+- **EPSRC CDT Fellowship** (2013-2018): Full funding for integrated photonics & electronics research (£120k)
+- **Nuffield Research Bursary** (2012): Computer vision for liquid crystal flow analysis
+- **Institute of Physics Grant** (2009-2012): Household means support
+
+## Teaching & Mentorship
+
+### Course Development & Delivery
+- **Deep Learning for Bioimage Analysis** (2019-2023): Annual course at EMBL-EBI for 40+ participants
+- **Mathematics Tutorials** (2015-2018): First-year Natural Sciences at Magdalene College, Cambridge
+- **C Programming Workshops** (2015): Clare College Summer School
+- **Quantum Mechanics & Scientific Ethics** (2014-2016): Reach Summer School, Cambridge
+
+### Research Supervision
+- 6 PhD students in AI and computer vision for spatial biology (2022-2024)
+- 3 project students during PhD: 2 MRes, 1 BSc (2014-2018)
+
+## Conference Presentations
+
+- Focus on Microscopy (FOM): 2018, 2022, 2023
+- Microscience Microscopy Congress (MMC): 2018, 2022
+- Computational BioImage Analysis Summer School (CBIAS): 2023
+
+## Professional Service
+
+- **Peer Review**: Nature Methods, Scientific Reports, Journal of Microscopy, ISBI, ICASP
+- **Community Leadership**: Virtual Cell Journal Club organizer, Magdalene College IT Representative
+- **Open Source**: Maintainer of multiple scientific software packages
+- **Professional Membership**: Institute of Physics
+
+## Additional Experience
+
+### Leadership Roles
+- **Lower Boats Captain & Coach**, Magdalene Boat Club, Cambridge (2014-2018)
+- **Mountaineering Club President**, Nottingham Trent University (2011-2012)
+  - Organized Alps expedition for 40 participants
+
+---
+
+*References available upon request*
