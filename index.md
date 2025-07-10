@@ -31,17 +31,25 @@ Leading virtual cell foundation model development at the intersection of AI and 
 Spearheaded AI initiatives for the Uhlmann Group and Bio-Image Archive:
 - **Team Leadership**: Supervised 6 PhD students, establishing coding standards, test-driven development practices, and peer review processes
 - **Spatial Biology Research**: Developed novel deep learning approaches for high-content cell morphology analysis, enabling drug discovery applications
+- **Representation Learning**: Created [bioimage_embed](https://github.com/ctr26/bioimage_embed), a self-supervised learning framework for biological image analysis
 - **MLOps Infrastructure**: Built scalable representation learning pipelines processing TB-scale microscopy datasets
 - **Academic Contributions**: Reviewer for ISBI 2022, ISBI 2023, and ICASP 2024
 
-### AI/ML Engineering Consultant
-**DeepMirror & Amun AI AB** | Cambridge, London & Stockholm | 2022 – 2024
+### AI/ML Engineering Consultant & Founding Engineer
+**Amun AI AB** | Stockholm, Sweden | 2022 – 2024
 
-Delivered high-impact AI solutions for biotech startups:
-- **[MouseMindMapper](https://github.com/DeepMirror/MouseMindMapper)**: Developed automated brain histology segmentation pipeline generating £50k annual revenue
+Founding engineer at AI biotech startup:
 - **NVIDIA Collaboration**: Partnered on scalable Kubernetes-based model serving infrastructure
 - **Production Deployment**: Architected GKE infrastructure serving 100+ models to 30+ daily users
+- **Platform Development**: Built core infrastructure for distributed AI computing
+
+### AI/ML Engineering Consultant
+**DeepMirror** | Cambridge & London, UK | 2022 – 2024
+
+Delivered high-impact AI solutions and managed client consultancy:
+- **[MouseMindMapper](https://github.com/DeepMirror/MouseMindMapper)**: Developed automated brain histology segmentation pipeline generating £50k annual revenue
 - **Cheminformatics**: Implemented high-performance C++ molecular fingerprinting library
+- **Client Management**: Led technical consultancy projects for biotech clients
 
 ### Data Scientist
 **Brazma Group, EMBL-EBI** | Cambridge, UK | Dec 2019 – Dec 2023
@@ -49,6 +57,7 @@ Delivered high-impact AI solutions for biotech startups:
 Advanced bioimage analysis through deep learning:
 - **Educational Impact**: Designed and delivered annual deep learning courses to 40+ participants (PhD to PI level)
 - **[AI4LIFE Grant](https://ai4life.eurobioimaging.eu/)**: Co-wrote successful €5M grant proposal to scale and federate bioimage AI
+- **Image Data Resource**: Applied AI and segmentation at scale to make large microscopy datasets more accessible
 - **Google Cloud Partnership**: Established collaboration for big-data representation learning
 - **Large-scale Analysis**: Deployed oncology image segmentation pipelines processing millions of cells
 
@@ -57,6 +66,7 @@ Advanced bioimage analysis through deep learning:
 
 Rapid deployment of pandemic data infrastructure:
 - **[COVID-19 Data Portal](https://www.covid19dataportal.org/)**: Developed CI/CD pipelines enabling daily updates of global pandemic data
+- **Sequence Processing**: Scaled up sequence alignment pipelines to handle unprecedented data volumes
 - **Workflow Orchestration**: Containerized ETL pipelines using Nextflow and Kubernetes
 - **Impact**: Platform served millions of queries supporting global research efforts
 
@@ -85,30 +95,34 @@ Pioneered computational microscopy techniques:
 
 ### MSci in Physics (First Class Honours)
 **Nottingham Trent University** | 2009 – 2013  
-- Presidential award for academic excellence
+- Top marks in graduating class
 - Mountaineering Club President (2011-2012)
 
 ## Selected Publications
 
 1. **Russell, C.T.**, et al. (2025). "TxPert: Leveraging Biochemical Relationships for Out-of-Distribution Perturbation Prediction." *arXiv preprint* [arXiv:2505.14919](https://arxiv.org/abs/2505.14919).
 
-2. Gómez-de-Mariscal, E., **Russell, C.T.**, et al. (2024). "DL4MicEverywhere: Deep learning for microscopy made flexible, shareable and reproducible." *Nature Methods* 21:925–927. [DOI](https://doi.org/10.1038/s41592-024-02295-6).
+2. Ouyang, W., Beuttenmueller, F., Gómez-de-Mariscal, E., Pape, C., Burke, T., Garcia-López-de-Haro, C., **Russell, C.T.**, et al. (2022). "BioImage Model Zoo: A Community-Driven Resource for Accessible Deep Learning in BioImage Analysis." *Nature Methods* (in review). [bioRxiv](https://doi.org/10.1101/2022.06.07.495102).
 
-3. **Russell, C.T.**, Shaw, M. (2021). "mmSIM: An open toolbox for accessible structured illumination microscopy." *Philosophical Transactions A* 379(2199):20200353. [DOI](https://doi.org/10.1098/rsta.2020.0353).
+3. Gómez-de-Mariscal, E., **Russell, C.T.**, et al. (2024). "DL4MicEverywhere: Deep learning for microscopy made flexible, shareable and reproducible." *Nature Methods* 21:925–927. [DOI](https://doi.org/10.1038/s41592-024-02295-6).
 
-4. Harrison, P.W., Lopez, R., Rahman, N., **Russell, C.T.**, et al. (2021). "The COVID-19 Data Portal: accelerating SARS-CoV-2 and COVID-19 research through rapid open access data sharing." *Nucleic Acids Research* 49(W1):W619-W623. [DOI](https://doi.org/10.1093/nar/gkab417).
+4. **Russell, C.T.**, et al. (2023). "MIFA: Metadata, Interactive navigation and Feature extraction Application for multiplexed whole-slide images." *BMC Bioinformatics* (in preparation).
 
-5. **Russell, C.T.**, Vallejo Ramirez, P.P., Rees, E.J. (2021). "Frame localisation optical projection tomography." *Scientific Reports* 11:4551. [DOI](https://doi.org/10.1038/s41598-021-84002-5).
+5. **Russell, C.T.**, Shaw, M. (2021). "mmSIM: An open toolbox for accessible structured illumination microscopy." *Philosophical Transactions A* 379(2199):20200353. [DOI](https://doi.org/10.1098/rsta.2020.0353).
 
-6. **Russell, C.T.**, Rees, E.J. (2020). "An open-hardware sample mounting solution for inverted lightsheet microscopes." *Journal of Microscopy* 280(3):233-241. [DOI](https://doi.org/10.1111/jmi.12935).
+6. Harrison, P.W., Lopez, R., Rahman, N., **Russell, C.T.**, et al. (2021). "The COVID-19 Data Portal: accelerating SARS-CoV-2 and COVID-19 research through rapid open access data sharing." *Nucleic Acids Research* 49(W1):W619-W623. [DOI](https://doi.org/10.1093/nar/gkab417).
 
-7. Hammond, K., Lewis, H., Faruqui, N., **Russell, C.T.**, et al. (2019). "Helminth Defense Molecules as Design Templates for Membrane Active Antibiotics." *ACS Infectious Diseases* 5(8):1471-1479. [DOI](https://doi.org/10.1021/acsinfecdis.9b00157).
+7. **Russell, C.T.**, Vallejo Ramirez, P.P., Rees, E.J. (2021). "Frame localisation optical projection tomography." *Scientific Reports* 11:4551. [DOI](https://doi.org/10.1038/s41598-021-84002-5).
 
-8. **Russell, C.T.**, Rees, E.J., Kaminski, C.F. (2018). "Homographically generated light sheets for the microscopy of large specimens." *Optics Letters* 43(4):663-666. [DOI](https://doi.org/10.1364/OL.43.000663).
+8. **Russell, C.T.**, Rees, E.J. (2020). "An open-hardware sample mounting solution for inverted lightsheet microscopes." *Journal of Microscopy* 280(3):233-241. [DOI](https://doi.org/10.1111/jmi.12935).
 
-9. **Russell, C.T.**, et al. (2016). "Flow-induced delayed Freedericksz transition." *Physical Review E* 93(3):030701. [DOI](https://doi.org/10.1103/PhysRevE.93.030701).
+9. Hammond, K., Lewis, H., Faruqui, N., **Russell, C.T.**, et al. (2019). "Helminth Defense Molecules as Design Templates for Membrane Active Antibiotics." *ACS Infectious Diseases* 5(8):1471-1479. [DOI](https://doi.org/10.1021/acsinfecdis.9b00157).
 
-10. Dumortier, J.G., Tanasa, R.A., **Russell, C.T.**, et al. "Protrusion-mediated cell adhesion determines viscosity." *Nature Materials* (in review).
+10. **Russell, C.T.**, Rees, E.J., Kaminski, C.F. (2018). "Homographically generated light sheets for the microscopy of large specimens." *Optics Letters* 43(4):663-666. [DOI](https://doi.org/10.1364/OL.43.000663).
+
+11. **Russell, C.T.**, et al. (2016). "Flow-induced delayed Freedericksz transition." *Physical Review E* 93(3):030701. [DOI](https://doi.org/10.1103/PhysRevE.93.030701).
+
+12. Dumortier, J.G., Tanasa, R.A., **Russell, C.T.**, et al. "Protrusion-mediated cell adhesion determines viscosity." *Nature Materials* (in review).
 
 [View all publications on Google Scholar →](https://scholar.google.com/citations?user=YOUR_ID)
 
@@ -116,9 +130,10 @@ Pioneered computational microscopy techniques:
 
 ### Machine Learning & AI
 - **Foundation Models**: Multi-modal LLM fine-tuning, OOD prediction, self-supervised learning
-- **Deep Learning**: PyTorch (5+ years), TensorFlow, Lightning, probabilistic programming (Pyro.ai)
+- **Deep Learning**: PyTorch (5+ years), TensorFlow, Lightning, probabilistic programming (Pyro.ai), Hugging Face ecosystem
 - **Computer Vision**: Bio-image analysis, 3D reconstruction, deconvolution, super-resolution
 - **Graph Neural Networks**: Systems biology integration, molecular property prediction
+- **Biological Data Modalities**: snRNAseq, bulk RNAseq, histopathology, fluorescence imaging
 
 ### Programming & Scientific Computing
 - **Languages**: Python (8+ years), R, MATLAB, C++, Java
