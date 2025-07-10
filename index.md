@@ -1,9 +1,8 @@
 ---
-title: Craig T. Russell, PhD
+title: Machine Learning Scientist
 layout: default
 ---
 
-# Machine Learning Scientist
 ## Virtual Cell & Drug Discovery Specialist**
 
 📧 [craig.russell.phd@gmail.com](mailto:craig.russell.phd@gmail.com)  
