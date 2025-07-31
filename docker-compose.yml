@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  jekyll:
+    image: jekyll/jekyll:4.2.0
+    container_name: jekyll-dev
+    ports:
+      - "4000:4000"
+      - "35729:35729"  # LiveReload port
+    volumes:
+      - .:/srv/jekyll
+    environment:
+      - JEKYLL_ENV=development
+    command: jekyll serve --host 0.0.0.0 --livereload --force_polling --incremental
+    stdin_open: true
+    tty: true
