@@ -39,7 +39,7 @@ Spearheaded AI initiatives for the Uhlmann Group and Bio-Image Archive:
 ### AI/ML Engineering Consultant
 **DeepMirror** | Cambridge & London, UK | 2022 – 2024
 
-- **[MouseMindMapper](https://github.com/DeepMirror/MouseMindMapper)**: Automated brain histology segmentation (£50k annual revenue)
+- **[MouseMindMapper](http://github.com/deepmirror)**: Automated brain histology segmentation (£50k annual revenue)
 - **Cheminformatics**: High-performance C++ molecular fingerprinting library
 
 ### Data Scientist
