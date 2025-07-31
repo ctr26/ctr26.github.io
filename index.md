@@ -1,11 +1,9 @@
 ---
-title: Craig T. Russell, PhD
+title: Machine Learning Scientist
 layout: default
 ---
 
-## Virtual Cell & Drug Discovery
-
-## Personal Statement
+## Virtual Cells in Drug Discovery
 
 <p style="text-align: justify;">
 Machine Learning Scientist specialising in virtual cell development for drug discovery. Strong background in building multi-modal foundation models that integrate epigenomic, transcriptomic, and phenotypic data. Experienced in applying AI to biological problems across scales, from molecular interactions to whole-organism imaging, with a focus on practical applications in precision medicine.

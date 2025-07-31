@@ -1,4 +1,4 @@
-title: Machine Learning Scientist
+title: Craig T. Russell, PhD
 theme: minima
 markdown: kramdown
 
@@ -8,9 +8,6 @@ minima:
   
   # Social links
   social_links:
-    - title: Email
-      icon: envelope
-      url: "mailto:craig.russell.phd@gmail.com"
     - title: GitHub Profile
       icon: github
       url: "https://github.com/ctr26"
@@ -27,12 +24,6 @@ plugins:
   - jekyll-seo-tag
 
 # Site metadata
-author:
-  name: Craig T. Russell, PhD
-  email: craig.russell.phd@gmail.com
   
 description: >
-  Machine Learning Scientist specialising in virtual cell development 
-  for drug discovery, with expertise in multi-modal foundation models 
-  and biological AI applications.
 
