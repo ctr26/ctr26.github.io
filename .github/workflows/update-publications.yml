@@ -1,0 +1,83 @@
+name: Update Publications from Google Scholar
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:  # Manual trigger
+  schedule:
+    - cron: '0 6 * * 1'  # Weekly on Monday 6AM UTC
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        pip install scholarly requests beautifulsoup4
+        
+    - name: Update publications
+      run: |
+        python3 - <<'EOF'
+        import json
+        import requests
+        from datetime import datetime
+        
+        # Your current publications (fallback)
+        publications = [
+            {
+                "title": "TxPert: Leveraging Biochemical Relationships for Out-of-Distribution Perturbation Prediction",
+                "authors": "Russell, C.T., et al.",
+                "year": 2025,
+                "venue": "arXiv preprint",
+                "link": "https://arxiv.org/abs/2505.14919",
+                "doi": None,
+                "citations": 0
+            },
+            {
+                "title": "DL4MicEverywhere: Deep learning for microscopy made flexible, shareable and reproducible",
+                "authors": "Gómez-de-Mariscal, E., Russell, C.T., et al.",
+                "year": 2024,
+                "venue": "Nature Methods",
+                "link": "https://doi.org/10.1038/s41592-024-02295-6",
+                "doi": "10.1038/s41592-024-02295-6",
+                "citations": 12
+            }
+            # Add more publications as needed
+        ]
+        
+        # TODO: Add Scholar API integration here when needed
+        # For now, just update the timestamp
+        
+        data = {
+            "lastUpdated": datetime.now().strftime("%Y-%m-%d"),
+            "publications": publications
+        }
+        
+        with open('assets/data/publications.json', 'w') as f:
+            json.dump(data, f, indent=2)
+            
+        print("Publications updated successfully")
+        EOF
+        
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add assets/data/publications.json
+        git diff --staged --quiet || git commit -m "[auto] Update publications data"
+        
+    - name: Push changes
+      if: github.ref == 'refs/heads/master'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master

@@ -16,14 +16,14 @@ Machine Learning Scientist specialising in virtual cell development for drug dis
 
 Contributing to virtual cell foundation model development at the AI-drug discovery interface:
 - **Virtual Cell Initiative**: Fine-tuning multi-modal LLMs on integrated omics data to create predictive biological models
-- **[TxPert](https://arxiv.org/abs/2505.14919)**: Co-developed SOTA transcriptomic perturbation prediction model with novel systems biology knowledge graph integration
+- **[TxPert](https://txpert.valencelabs.com/)**: Co-developed SOTA transcriptomic perturbation prediction model with novel systems biology knowledge graph integration
 - **Boltz2 Project**: Contributing to proteome-wide virtual drug screening platform
 - **Community Leadership**: Virtual Cell Journal Club organizer
 
 ### Senior Research Associate & AI Engineering Lead
 **EMBL-EBI** | Cambridge, UK | Dec 2022 – Oct 2024
 
-Spearheaded AI initiatives for the Uhlmann Group and Bio-Image Archive:
+Led AI initiatives for the Uhlmann Group and Bio-Image Archive:
 - **Leadership**: Supervised 6 PhD students, establishing coding standards and peer review processes
 - **Spatial Biology**: Developed deep learning approaches for high-content cell morphology analysis
 - **[bioimage_embed](https://github.com/ctr26/bioimage_embed)**: Created self-supervised learning framework for biological images
@@ -46,7 +46,8 @@ Spearheaded AI initiatives for the Uhlmann Group and Bio-Image Archive:
 **Brazma Group, EMBL-EBI** | Cambridge, UK | Dec 2019 – Dec 2023
 
 - **Education**: Annual deep learning courses for 40+ participants (PhD to PI level)
-- **[AI4LIFE Grant](https://ai4life.eurobioimaging.eu/)**: Co-wrote successful €5M proposal
+- **[AI4LIFE Grant](https://ai4life.eurobioimaging.eu/)**: Co-wrote successful €5M proposal for federated AI infrastructure
+- **AI4LIFE Platform**: Contributing to the development of federated bioimage analysis tools and model sharing
 - **Image Data Resource**: Large-scale AI-driven microscopy analysis
 - **Industry Partnerships**: Google Cloud collaboration for representation learning
 
@@ -86,31 +87,13 @@ Spearheaded AI initiatives for the Uhlmann Group and Bio-Image Archive:
 
 ## Selected Publications
 
-1. **Russell, C.T.**, et al. (2025). "TxPert: Leveraging Biochemical Relationships for Out-of-Distribution Perturbation Prediction." *arXiv preprint* [arXiv:2505.14919](https://arxiv.org/abs/2505.14919).
+<div id="publications-list">
+<!-- Publications will be loaded dynamically via API only -->
+</div>
 
-2. Ouyang, W., Beuttenmueller, F., Gómez-de-Mariscal, E., Pape, C., Burke, T., Garcia-López-de-Haro, C., **Russell, C.T.**, et al. (2022). "BioImage Model Zoo: A Community-Driven Resource for Accessible Deep Learning in BioImage Analysis." *Nature Methods* (in review). [bioRxiv](https://doi.org/10.1101/2022.06.07.495102).
+<script src="{{ '/assets/js/publications.js' | relative_url }}"></script>
 
-3. Gómez-de-Mariscal, E., **Russell, C.T.**, et al. (2024). "DL4MicEverywhere: Deep learning for microscopy made flexible, shareable and reproducible." *Nature Methods* 21:925–927. [DOI](https://doi.org/10.1038/s41592-024-02295-6).
-
-4. **Russell, C.T.**, et al. (2023). "MIFA: Metadata, Interactive navigation and Feature extraction Application for multiplexed whole-slide images." *BMC Bioinformatics* (in preparation).
-
-5. **Russell, C.T.**, Shaw, M. (2021). "mmSIM: An open toolbox for accessible structured illumination microscopy." *Philosophical Transactions A* 379(2199):20200353. [DOI](https://doi.org/10.1098/rsta.2020.0353).
-
-6. Harrison, P.W., Lopez, R., Rahman, N., **Russell, C.T.**, et al. (2021). "The COVID-19 Data Portal: accelerating SARS-CoV-2 and COVID-19 research through rapid open access data sharing." *Nucleic Acids Research* 49(W1):W619-W623. [DOI](https://doi.org/10.1093/nar/gkab417).
-
-7. **Russell, C.T.**, Vallejo Ramirez, P.P., Rees, E.J. (2021). "Frame localisation optical projection tomography." *Scientific Reports* 11:4551. [DOI](https://doi.org/10.1038/s41598-021-84002-5).
-
-8. **Russell, C.T.**, Rees, E.J. (2020). "An open-hardware sample mounting solution for inverted lightsheet microscopes." *Journal of Microscopy* 280(3):233-241. [DOI](https://doi.org/10.1111/jmi.12935).
-
-9. Hammond, K., Lewis, H., Faruqui, N., **Russell, C.T.**, et al. (2019). "Helminth Defense Molecules as Design Templates for Membrane Active Antibiotics." *ACS Infectious Diseases* 5(8):1471-1479. [DOI](https://doi.org/10.1021/acsinfecdis.9b00157).
-
-10. **Russell, C.T.**, Rees, E.J., Kaminski, C.F. (2018). "Homographically generated light sheets for the microscopy of large specimens." *Optics Letters* 43(4):663-666. [DOI](https://doi.org/10.1364/OL.43.000663).
-
-11. **Russell, C.T.**, et al. (2016). "Flow-induced delayed Freedericksz transition." *Physical Review E* 93(3):030701. [DOI](https://doi.org/10.1103/PhysRevE.93.030701).
-
-12. Dumortier, J.G., Tanasa, R.A., **Russell, C.T.**, et al. "Protrusion-mediated cell adhesion determines viscosity." *Nature Materials* (in review).
-
-[View all publications on Google Scholar →](https://scholar.google.com/citations?user=YOUR_ID)
+<a href="https://scholar.google.com/citations?user=XVt7BYQAAAAJ&hl=en" target="_blank" rel="noopener">View all publications on Google Scholar →</a>
 
 ## Technical Skills
 
@@ -167,13 +150,13 @@ Spearheaded AI initiatives for the Uhlmann Group and Bio-Image Archive:
 - Lower Boats Captain & Coach, Magdalene College (2014-2018)
 - Mountaineering Club President, NTU (2011-2012)
 
+---
+
 ## Professional Service
 
 - **Peer Review**: Nature Methods, Scientific Reports, Journal of Microscopy, ISBI, ICASP
 - **Conference Presentations**: FOM (2018, 2022, 2023), MMC (2018, 2022), CBIAS (2023)
 - **Open Source**: Maintainer of multiple scientific software packages
 - **Professional Membership**: Institute of Physics
-
----
 
 *References available upon request*
