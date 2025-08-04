@@ -106,6 +106,7 @@ Led AI initiatives for the Uhlmann Group and Bio-Image Archive:
 ### Programming & Infrastructure
 - **Languages**: Python (8+ years), R, MATLAB, C++, Java
 - **Scientific Computing**: NumPy, SciPy, Pandas, scikit-learn, OpenCV, scikit-image
+- **GPU Computing**: Multi-GPU training on NVIDIA A100/V100 clusters, CUDA optimization, distributed training across HPC environments, SLURM job scheduling, GCP/AWS GPU instances
 - **Cloud & DevOps**: GCP, AWS, Kubernetes, Docker, CI/CD, Terraform
 - **Workflow Management**: Snakemake, Nextflow, Apache Airflow
 - **Model Deployment**: NVIDIA Triton, KServe, MLflow
