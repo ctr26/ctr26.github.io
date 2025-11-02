@@ -1,106 +1,23 @@
 {
-  "lastUpdated": "2025-10-27",
-  "patents": [
-    {
-      "title": "TxPert: AI-Driven Perturbation Prediction System",
-      "authors": "Russell, C.T., et al.",
-      "year": 2025,
-      "venue": "Patent Pending",
-      "link": "#",
-      "doi": null,
-      "citations": 0
-    },
-    {
-      "title": "HOOK-1: Novel Therapeutic Target Discovery Platform",
-      "authors": "Russell, C.T., et al.",
-      "year": 2025,
-      "venue": "Patent Pending",
-      "link": "#",
-      "doi": null,
-      "citations": 0
-    }
-  ],
+  "lastUpdated": "2025-11-02",
   "publications": [
     {
       "title": "TxPert: Leveraging Biochemical Relationships for Out-of-Distribution Perturbation Prediction",
       "authors": "Russell, C.T., et al.",
       "year": 2025,
-      "venue": "NeurIPS 2025",
-      "link": "https://neurips.cc/virtual/2025/loc/san-diego/poster/116558",
+      "venue": "arXiv preprint",
+      "link": "https://arxiv.org/abs/2505.14919",
       "doi": null,
       "citations": 0
     },
     {
       "title": "DL4MicEverywhere: Deep learning for microscopy made flexible, shareable and reproducible",
-      "authors": "Gómez-de-Mariscal, E., Russell, C.T., et al.",
+      "authors": "G\u00f3mez-de-Mariscal, E., Russell, C.T., et al.",
       "year": 2024,
       "venue": "Nature Methods",
       "link": "https://doi.org/10.1038/s41592-024-02295-6",
       "doi": "10.1038/s41592-024-02295-6",
       "citations": 12
-    },
-    {
-      "title": "The BioImage Archive–building a home for life-sciences microscopy data",
-      "authors": "Hartley, M., Gault, D., Donovan, C., Mahood, R., Oyetunde, A., Russell, C.T., et al.",
-      "year": 2023,
-      "venue": "Nucleic Acids Research",
-      "link": "https://doi.org/10.1093/nar/gkac1072",
-      "doi": "10.1093/nar/gkac1072",
-      "citations": 15
-    },
-    {
-      "title": "The COVID-19 Data Portal: accelerating SARS-CoV-2 and COVID-19 research through rapid open access data sharing",
-      "authors": "Harrison, P.W., Lopez, R., Rahman, N., Russell, C.T., et al.",
-      "year": 2021,
-      "venue": "Nucleic Acids Research",
-      "link": "https://doi.org/10.1093/nar/gkab417",
-      "doi": "10.1093/nar/gkab417",
-      "citations": 89
-    },
-    {
-      "title": "Frame localisation optical projection tomography",
-      "authors": "Russell, C.T., Vallejo Ramirez, P.P., Rees, E.J.",
-      "year": 2021,
-      "venue": "Scientific Reports",
-      "link": "https://doi.org/10.1038/s41598-021-84002-5",
-      "doi": "10.1038/s41598-021-84002-5",
-      "citations": 3
-    },
-    {
-      "title": "mmSIM: An open toolbox for accessible structured illumination microscopy",
-      "authors": "Russell, C.T., Shaw, M.",
-      "year": 2021,
-      "venue": "Philosophical Transactions A",
-      "link": "https://doi.org/10.1098/rsta.2020.0353",
-      "doi": "10.1098/rsta.2020.0353",
-      "citations": 7
-    },
-    {
-      "title": "An open-hardware sample mounting solution for inverted lightsheet microscopes",
-      "authors": "Russell, C.T., Rees, E.J.",
-      "year": 2020,
-      "venue": "Journal of Microscopy",
-      "link": "https://doi.org/10.1111/jmi.12935",
-      "doi": "10.1111/jmi.12935",
-      "citations": 4
-    },
-    {
-      "title": "Helminth Defense Molecules as Design Templates for Membrane Active Antibiotics",
-      "authors": "Hammond, K., Lewis, H., Faruqui, N., Russell, C.T., et al.",
-      "year": 2019,
-      "venue": "ACS Infectious Diseases",
-      "link": "https://doi.org/10.1021/acsinfecdis.9b00157",
-      "doi": "10.1021/acsinfecdis.9b00157",
-      "citations": 21
-    },
-    {
-      "title": "Homographically generated light sheets for the microscopy of large specimens",
-      "authors": "Russell, C.T., Rees, E.J., Kaminski, C.F.",
-      "year": 2018,
-      "venue": "Optics Letters",
-      "link": "https://doi.org/10.1364/OL.43.000663",
-      "doi": "10.1364/OL.43.000663",
-      "citations": 8
     }
   ]
 }
