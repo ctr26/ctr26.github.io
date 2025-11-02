@@ -8,14 +8,35 @@ class PublicationsLoader {
         this.userGoogleScholarId = 'XVt7BYQAAAAJ';
         this.cacheKey = 'scholar_publications';
         this.publicationsJsonUrl = '/assets/data/publications.json';
+        this.fallbackPatents = [
+            {
+                title: "TxPert: AI-Driven Perturbation Prediction System",
+                authors: "Russell, C.T., et al.",
+                year: 2025,
+                venue: "Patent Pending",
+                link: "#",
+                doi: null,
+                citations: 0
+            },
+            {
+                title: "HOOK-1: Novel Therapeutic Target Discovery Platform",
+                authors: "Russell, C.T., et al.",
+                year: 2025,
+                venue: "Patent Pending",
+                link: "#",
+                doi: null,
+                citations: 0
+            }
+        ];
         this.fallbackPublications = [
             {
                 title: "TxPert: Leveraging Biochemical Relationships for Out-of-Distribution Perturbation Prediction",
                 authors: "Russell, C.T., et al.",
                 year: 2025,
-                venue: "arXiv preprint",
-                link: "https://arxiv.org/abs/2505.14919",
-                doi: null
+                venue: "NeurIPS 2025",
+                link: "https://neurips.cc/virtual/2025/loc/san-diego/poster/116558",
+                doi: null,
+                citations: 0
             },
             {
                 title: "DL4MicEverywhere: Deep learning for microscopy made flexible, shareable and reproducible",
@@ -23,7 +44,17 @@ class PublicationsLoader {
                 year: 2024,
                 venue: "Nature Methods",
                 link: "https://doi.org/10.1038/s41592-024-02295-6",
-                doi: "10.1038/s41592-024-02295-6"
+                doi: "10.1038/s41592-024-02295-6",
+                citations: 12
+            },
+            {
+                title: "The BioImage Archive–building a home for life-sciences microscopy data",
+                authors: "Hartley, M., Gault, D., Donovan, C., Mahood, R., Oyetunde, A., Russell, C.T., et al.",
+                year: 2023,
+                venue: "Nucleic Acids Research",
+                link: "https://doi.org/10.1093/nar/gkac1072",
+                doi: "10.1093/nar/gkac1072",
+                citations: 15
             },
             {
                 title: "The COVID-19 Data Portal: accelerating SARS-CoV-2 and COVID-19 research through rapid open access data sharing",
@@ -31,7 +62,8 @@ class PublicationsLoader {
                 year: 2021,
                 venue: "Nucleic Acids Research",
                 link: "https://doi.org/10.1093/nar/gkab417",
-                doi: "10.1093/nar/gkab417"
+                doi: "10.1093/nar/gkab417",
+                citations: 89
             },
             {
                 title: "Frame localisation optical projection tomography",
@@ -39,7 +71,8 @@ class PublicationsLoader {
                 year: 2021,
                 venue: "Scientific Reports",
                 link: "https://doi.org/10.1038/s41598-021-84002-5",
-                doi: "10.1038/s41598-021-84002-5"
+                doi: "10.1038/s41598-021-84002-5",
+                citations: 3
             },
             {
                 title: "mmSIM: An open toolbox for accessible structured illumination microscopy",
@@ -47,7 +80,8 @@ class PublicationsLoader {
                 year: 2021,
                 venue: "Philosophical Transactions A",
                 link: "https://doi.org/10.1098/rsta.2020.0353",
-                doi: "10.1098/rsta.2020.0353"
+                doi: "10.1098/rsta.2020.0353",
+                citations: 7
             },
             {
                 title: "An open-hardware sample mounting solution for inverted lightsheet microscopes",
@@ -55,7 +89,8 @@ class PublicationsLoader {
                 year: 2020,
                 venue: "Journal of Microscopy",
                 link: "https://doi.org/10.1111/jmi.12935",
-                doi: "10.1111/jmi.12935"
+                doi: "10.1111/jmi.12935",
+                citations: 4
             },
             {
                 title: "Helminth Defense Molecules as Design Templates for Membrane Active Antibiotics",
@@ -63,7 +98,8 @@ class PublicationsLoader {
                 year: 2019,
                 venue: "ACS Infectious Diseases",
                 link: "https://doi.org/10.1021/acsinfecdis.9b00157",
-                doi: "10.1021/acsinfecdis.9b00157"
+                doi: "10.1021/acsinfecdis.9b00157",
+                citations: 21
             },
             {
                 title: "Homographically generated light sheets for the microscopy of large specimens",
@@ -71,7 +107,8 @@ class PublicationsLoader {
                 year: 2018,
                 venue: "Optics Letters",
                 link: "https://doi.org/10.1364/OL.43.000663",
-                doi: "10.1364/OL.43.000663"
+                doi: "10.1364/OL.43.000663",
+                citations: 8
             }
         ];
         this.corsProxy = 'https://api.allorigins.win/raw?url=';
@@ -79,34 +116,54 @@ class PublicationsLoader {
 
     async init() {
         try {
-            // Try to load from JSON file first (stored in repo)
+            let publications = null;
+            let patents = null;
+            let source = 'fallback';
+
+            // Try JSON file
             const jsonData = await this.loadFromJson();
             if (jsonData) {
-                console.log('Loading publications from JSON file');
-                this.renderPublications(jsonData, 'json');
-                return;
+                if (jsonData.publications && jsonData.publications.length > 0) {
+                    publications = jsonData.publications;
+                    source = 'json';
+                    console.log('Loaded publications from JSON file');
+                }
+                if (jsonData.patents && jsonData.patents.length > 0) {
+                    patents = jsonData.patents;
+                    console.log('Loaded patents from JSON file');
+                }
             }
 
-            // Fallback to localStorage cache
-            const cachedData = this.getCachedPublications();
-            if (cachedData) {
-                console.log('Loading publications from localStorage cache');
-                this.renderPublications(cachedData.publications, 'cache');
-                return;
+            // Try localStorage cache if JSON failed
+            if (!publications || !patents) {
+                const cachedData = this.getCachedPublications();
+                if (cachedData) {
+                    if (!publications && cachedData.publications) {
+                        publications = cachedData.publications;
+                        source = 'cache';
+                    }
+                    if (!patents && cachedData.patents) {
+                        patents = cachedData.patents;
+                    }
+                }
             }
 
-            // Last resort: fetch from API
-            const publications = await this.fetchPublications();
-            if (publications && publications.length > 0) {
-                this.cachePublications(publications);
-                this.renderPublications(publications, 'api');
-            } else {
-                console.warn('No publications available from any source');
-                this.showError();
+            // Use fallback if we have nothing
+            if (!publications || publications.length < this.fallbackPublications.length) {
+                publications = this.fallbackPublications;
+                source = 'fallback';
             }
+            if (!patents || patents.length < this.fallbackPatents.length) {
+                patents = this.fallbackPatents;
+            }
+
+            this.renderPatents(patents, source);
+            this.renderPublications(publications, source);
+
         } catch (error) {
-            console.warn('Failed to load publications:', error);
-            this.showError();
+            console.warn('Error in init, using fallback:', error);
+            this.renderPatents(this.fallbackPatents, 'fallback');
+            this.renderPublications(this.fallbackPublications, 'fallback');
         }
     }
 
@@ -216,6 +273,24 @@ class PublicationsLoader {
         return yearMatch ? parseInt(yearMatch[0]) : new Date().getFullYear();
     }
 
+    renderPatents(patents, source = 'unknown') {
+        const container = document.getElementById('patents-list');
+        if (!container) return;
+
+        patents.sort((a, b) => (b.year || 0) - (a.year || 0));
+
+        const html = patents.map((patent, index) => {
+            return `
+                <div class="patent-item" data-year="${patent.year}">
+                    <p><strong>${index + 1}.</strong> ${patent.authors} (${patent.year}).
+                    "${patent.title}" <em>${patent.venue}</em>.</p>
+                </div>
+            `;
+        }).join('');
+
+        container.innerHTML = html;
+    }
+
     renderPublications(publications, source = 'unknown') {
         const container = document.getElementById('publications-list');
         if (!container) return;
@@ -241,8 +316,9 @@ class PublicationsLoader {
         // Add source indicator
         const sourceLabels = {
             'json': 'repository data',
-            'cache': 'cached data', 
-            'api': 'live API'
+            'cache': 'cached data',
+            'api': 'live API',
+            'fallback': 'curated list'
         };
         
         const updateInfo = document.createElement('p');
@@ -257,7 +333,7 @@ class PublicationsLoader {
             const response = await fetch(this.publicationsJsonUrl);
             if (response.ok) {
                 const data = await response.json();
-                return data.publications || data; // Handle different JSON structures
+                return data;
             }
         } catch (error) {
             console.warn('Failed to load JSON file:', error);
@@ -280,14 +356,15 @@ class PublicationsLoader {
         }
     }
 
-    cachePublications(publications) {
+    cachePublications(publications, patents) {
         try {
             const data = {
                 publications: publications,
+                patents: patents,
                 timestamp: Date.now()
             };
             localStorage.setItem(this.cacheKey, JSON.stringify(data));
-            console.log('Publications cached successfully');
+            console.log('Publications and patents cached successfully');
         } catch (error) {
             console.warn('Error caching publications:', error);
         }

@@ -16,7 +16,7 @@ Machine Learning Scientist specialising in virtual cell development for drug dis
 
 Contributing to virtual cell foundation model development at the AI-drug discovery interface:
 - **Virtual Cell Initiative**: Fine-tuning multi-modal LLMs on integrated omics data to create predictive biological models
-- **[TxPert](https://txpert.valencelabs.com/)**: Co-developed SOTA transcriptomic perturbation prediction model with novel systems biology knowledge graph integration
+- **[TxPert](https://neurips.cc/virtual/2025/loc/san-diego/poster/116558)**: Co-developed SOTA transcriptomic perturbation prediction model with novel systems biology knowledge graph integration (NeurIPS 2025)
 - **Boltz2 Project**: Contributing to proteome-wide virtual drug screening platform
 - **Community Leadership**: Virtual Cell Journal Club organizer
 
@@ -27,6 +27,7 @@ Led AI initiatives for the Uhlmann Group and Bio-Image Archive:
 - **Leadership**: Supervised 6 PhD students, establishing coding standards and peer review processes
 - **Spatial Biology**: Developed deep learning approaches for high-content cell morphology analysis
 - **[bioimage_embed](https://github.com/ctr26/bioimage_embed)**: Created self-supervised learning framework for biological images
+- **[shape_embed](https://github.com/ctr26/shape_embed)**: Deep learning toolkit for cell shape analysis
 - **MLOps**: Built scalable pipelines processing TB-scale microscopy datasets
 - **Academic Service**: Reviewer for ISBI 2022/2023, ICASP 2024
 
@@ -75,15 +76,21 @@ Led AI initiatives for the Uhlmann Group and Bio-Image Archive:
 - Created homographic signal generation and micrometer-scale tomography algorithms
 - Supervised 3 students (2 MRes, 1 BSc)
 
-### MRes in Engineering & Physics
-**University of Cambridge & UCL** | 2013 – 2014  
+### MRes in Photonics
+**University of Cambridge & UCL** | 2013 – 2014 | [EPSRC Photonics CDT](https://www.pes-cdt.org/)
 - Structured illumination microscopy reconstruction software
-- Mobile app development project: accessibility application for London Transport
+- Modules: Computer Vision, Quantum Mechanics, Photonics
 
 ### MSci in Physics (First Class Honours)
 **Nottingham Trent University** | 2009 – 2013  
 - Top physics student in graduating class
 - Mountaineering Club President (2011-2012)
+
+## Patents
+
+<div id="patents-list">
+<!-- Patents will be loaded dynamically -->
+</div>
 
 ## Selected Publications
 
