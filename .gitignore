@@ -1,0 +1,11 @@
+# Jekyll cache and build files
+.jekyll-cache/
+_site/
+.sass-cache/
+
+# Bundler
+.bundle/
+
+# Jekyll metadata
+.jekyll-metadata
+
