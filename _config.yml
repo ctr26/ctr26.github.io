@@ -23,6 +23,17 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Exclude from build
+exclude:
+  - CLAUDE.md
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+  - README.txt
+  - Dockerfile
+  - docker-compose.yml
+  - docs/
+
 # Site metadata
   
 description: >
