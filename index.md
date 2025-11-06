@@ -74,7 +74,8 @@ London, UK • 2018 – Dec 2019
     - *Self‑supervised representation learning for biological images* (bioimage_embed).  
 
 ## Patents
-- If applicable, list 1–3 relevant filings with **title • number • year • brief contribution**. Remove this section if none.
+- **Virtual Cell Foundation Model** • Patent pending • 2024 • Multi‑modal integration of knowledge graphs, transcriptomics and imaging for cellular state prediction (Hook1/Recursion)
+- **TxPert: Transcriptomic Perturbation Prediction** • Patent pending • 2024 • Systems‑biology knowledge graph integration for gene expression response forecasting (Recursion)
 
 ## Open Source (Selected)
 - **bioimage_embed** — Self‑supervised learning for biological images.  
