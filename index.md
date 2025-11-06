@@ -1,170 +1,109 @@
 ---
-title: Machine Learning Scientist
+title: Machine Learning Scientist — Drug Discovery (Foundation Models)
 layout: default
 ---
 
-## Virtual Cells in Drug Discovery
+London, UK • linkedin.com/in/ctr26 • github.com/ctr26 • Google Scholar
+*Focus:* Virtual cells, multi‑modal foundation models, omics + imaging, precision medicine
 
-<p style="text-align: justify;">
-Machine Learning Scientist specialising in virtual cell development for drug discovery. Strong background in building multi-modal foundation models that integrate epigenomic, transcriptomic, and phenotypic data. Experienced in applying AI to biological problems across scales, from molecular interactions to whole-organism imaging, with a focus on practical applications in precision medicine.
-</p>
+## Professional Summary
+Machine Learning Scientist specialising in **virtual cell** development for drug discovery. Built and deployed **multi‑modal foundation models** that integrate knowledge graphs, text, transcriptomic and phenotypic imaging data. Experience spans molecular interactions to whole‑organism imaging. Comfortable leading across science and engineering—MLOps at TB‑scale, reproducible pipelines, and cross‑functional collaboration with biology, chemistry and platform teams.
 
-## Employment History
+## Core Strengths
+Foundation models • Representation/self‑supervised learning • Multi‑modal fusion • Knowledge graphs • Biological sequence & transcriptomics • High‑content imaging • GNNs • OOD/robustness • Scaling & performance • Reproducible ML (MLOps) • Scientific communication
 
-### Senior Machine Learning Scientist
-**Valence Labs @ Recursion Pharmaceuticals** | London, UK | Oct 2024 – Present
+## Experience
 
-Contributing to virtual cell foundation model development at the AI-drug discovery interface:
-- **Virtual Cell Initiative**: Fine-tuning multi-modal LLMs on integrated omics data to create predictive biological models
-- **[TxPert](https://neurips.cc/virtual/2025/loc/san-diego/poster/116558)**: Co-developed SOTA transcriptomic perturbation prediction model with novel systems biology knowledge graph integration (NeurIPS 2025)
-- **Boltz2 Project**: Contributing to proteome-wide virtual drug screening platform
-- **Community Leadership**: Virtual Cell Journal Club organizer
+**Senior Machine Learning Scientist — Valence Labs @ Recursion Pharmaceuticals**  
+London, UK • Oct 2024 – Present  
+- **Virtual Cell initiative:** Fine‑tune multi‑modal LLMs over **knowledge graphs + text + RNA‑seq + phenotypic imaging** to model cell state and predict gene/drug responses; partnered closely with biology to design benchmark tasks and success metrics.  
+- **TxPert (NeurIPS 2025):** Co‑developed a **state‑of‑the‑art transcriptomic perturbation predictor** using systems‑biology KGs; contributed training code, data curation, and ablations.  
+- **Boltz2 project:** Contributed to proteome‑scale **virtual drug screening** components; supported evaluation strategy and error analysis across targets.  
+- **Community:** Organiser, **Virtual Cell Journal Club**; fostered reading group bridging ML and wet‑lab teams.
 
-### Senior Research Associate & AI Engineering Lead
-**EMBL-EBI** | Cambridge, UK | Dec 2022 – Oct 2024
+**Senior Research Associate & AI Engineering Lead — EMBL‑EBI (Uhlmann Group & Bio‑Image Archive)**  
+Cambridge, UK • Dec 2022 – Oct 2024  
+- **Team leadership:** Supervised **6 PhD students**; established coding standards, CI, and peer‑review practices used across the lab.  
+- **Spatial biology:** Built deep‑learning pipelines for **high‑content cell morphology** and single‑cell feature learning; integrated with public bioimage resources.  
+- **Open‑source:** Created **bioimage_embed** (self‑supervised biological images) and **shape_embed** (cell‑shape DL toolkit); productionised training/inference.  
+- **MLOps:** Designed scalable pipelines processing **TB‑scale microscopy datasets** across HPC and cloud; containerised workflows, automated experiment tracking.  
+- **Academic service:** Reviewer — ISBI 2022/2023, **ICASSP** 2024.
 
-Led AI initiatives for the Uhlmann Group and Bio-Image Archive:
-- **Leadership**: Supervised 6 PhD students, establishing coding standards and peer review processes
-- **Spatial Biology**: Developed deep learning approaches for high-content cell morphology analysis
-- **[bioimage_embed](https://github.com/ctr26/bioimage_embed)**: Created self-supervised learning framework for biological images
-- **[shape_embed](https://github.com/ctr26/shape_embed)**: Deep learning toolkit for cell shape analysis
-- **MLOps**: Built scalable pipelines processing TB-scale microscopy datasets
-- **Academic Service**: Reviewer for ISBI 2022/2023, ICASP 2024
+**AI/ML Founding Engineer — Amun AI AB**  
+Stockholm, Sweden • 2022 – 2024  
+- Built **GKE/Kubernetes** platform for model serving with **NVIDIA Triton/KServe**; supported **100+ models** for **30+ daily users** with auth, monitoring and autoscaling.  
 
-### AI/ML Founding Engineer
-**Amun AI AB** | Stockholm, Sweden | 2022 – 2024
+**AI/ML Engineering Consultant — DeepMirror**  
+Cambridge & London, UK • 2022 – 2024  
+- **MouseMindMapper:** Automated brain‑histology segmentation product generating **£50k annual revenue**; delivered end‑to‑end data, training, packaging and docs.  
+- Wrote a high‑performance **C++ cheminformatics fingerprinting** library for production use.
 
-- **NVIDIA Partnership**: Scalable Kubernetes-based model serving infrastructure
-- **Production Systems**: GKE infrastructure serving 100+ models to 30+ daily users
+**Data Scientist — Brazma Group, EMBL‑EBI**  
+Cambridge, UK • Dec 2019 – Dec 2023  
+- Co‑authored the successful **AI4LIFE €5M** grant (federated bioimage AI infrastructure); contributed to platform architecture and model‑sharing strategy.  
+- Drove **large‑scale AI microscopy** analyses in the Image Data Resource; collaborated with **Google Cloud** on representation learning.  
+- Taught annual deep‑learning courses to **40+ researchers** (PhD to PI).
 
-### AI/ML Engineering Consultant
-**DeepMirror** | Cambridge & London, UK | 2022 – 2024
+**Software Engineer (COVID‑19 Response) — European Nucleotide Archive, EMBL‑EBI**  
+Cambridge, UK • Mar 2020 – Sept 2020  
+- Built CI/CD for the **COVID‑19 Data Portal** to enable **daily global data updates**.  
+- Scaled NGS alignment and **Nextflow/Kubernetes** ETL pipelines for surging data volumes.
 
-- **[MouseMindMapper](http://github.com/deepmirror)**: Automated brain histology segmentation (£50k annual revenue)
-- **Cheminformatics**: High-performance C++ molecular fingerprinting library
-
-### Data Scientist
-**Brazma Group, EMBL-EBI** | Cambridge, UK | Dec 2019 – Dec 2023
-
-- **Education**: Annual deep learning courses for 40+ participants (PhD to PI level)
-- **[AI4LIFE Grant](https://ai4life.eurobioimaging.eu/)**: Co-wrote successful €5M proposal for federated AI infrastructure
-- **AI4LIFE Platform**: Contributing to the development of federated bioimage analysis tools and model sharing
-- **Image Data Resource**: Large-scale AI-driven microscopy analysis
-- **Industry Partnerships**: Google Cloud collaboration for representation learning
-
-### Software Engineer (COVID-19 Response)
-**European Nucleotide Archive, EMBL-EBI** | Cambridge, UK | Mar 2020 – Sept 2020
-
-- **[COVID-19 Data Portal](https://www.covid19dataportal.org/)**: CI/CD pipelines enabling daily global data updates
-- **NGS Processing**: Scaled sequence alignment pipelines for large data volumes
-- **Infrastructure**: Containerized ETL pipelines using Nextflow and Kubernetes
-
-### Computational Microscopist
-**National Physical Laboratory** | London, UK | 2018 – Dec 2019
-
-- Novel 3D organoid segmentation algorithms for cancer research
-- MSquared consultancy on advanced imaging solutions
+**Computational Microscopist — National Physical Laboratory**  
+London, UK • 2018 – Dec 2019  
+- Developed novel **3D organoid segmentation** methods for cancer research; delivered consultancy to MSquared on advanced imaging.
 
 ## Education
 
-### PhD in Engineering
-**University of Cambridge** | 2014 – 2018 | EPSRC PES-CDT Studentship  
-*Thesis*: "Light-sheet microscopy for tracking particles in large specimens"  
-*Focus*: Microscope automation and biological image analysis
-- Designed and built novel light-sheet microscope with automated acquisition
-- Developed algorithms for particle tracking and optimising signal collection
-- Created homographic signal generation and micrometer-scale tomography algorithms
-- Supervised 3 students (2 MRes, 1 BSc)
+**PhD, Engineering — University of Cambridge** • 2014 – 2018 (EPSRC PES‑CDT)  
+*Thesis:* “Light‑sheet microscopy for tracking particles in large specimens”  
+- Designed & built a novel light‑sheet microscope with automated acquisition.  
+- Algorithms for particle tracking, signal optimisation, and micrometre‑scale tomography.  
+- Supervision: 2× MRes, 1× BSc.
 
-### MRes in Photonics
-**University of Cambridge & UCL** | 2013 – 2014 | [EPSRC Photonics CDT](https://www.pes-cdt.org/)
-- Structured illumination microscopy reconstruction software
-- Modules: Computer Vision, Quantum Mechanics, Photonics
+**MRes, Photonics — University of Cambridge & UCL** • 2013 – 2014 (EPSRC Photonics CDT)  
+- Structured‑illumination microscopy reconstruction; modules in Computer Vision, Quantum Mechanics, Photonics.
 
-### MSci in Physics (First Class Honours)
-**Nottingham Trent University** | 2009 – 2013  
-- Top physics student in graduating class
-- Mountaineering Club President (2011-2012)
+**MSci, Physics (First‑Class Honours) — Nottingham Trent University** • 2009 – 2013  
+- Top physics graduate; President, Mountaineering Club (2011–2012).
+
+## Selected Publications & Preprints
+- See **Google Scholar** for the full list. Include **3–5** most relevant to drug discovery/foundation models directly here when submitting to roles.  
+  - Example placeholders:  
+    - *TxPert: Transcriptomic Perturbation Prediction with Systems‑Biology KGs* (NeurIPS 2025).  
+    - *Self‑supervised representation learning for biological images* (bioimage_embed).  
 
 ## Patents
+- If applicable, list 1–3 relevant filings with **title • number • year • brief contribution**. Remove this section if none.
 
-<div id="patents-list">
-<!-- Patents will be loaded dynamically -->
-</div>
+## Open Source (Selected)
+- **bioimage_embed** — Self‑supervised learning for biological images.  
+- **shape_embed** — Deep‑learning toolkit for cell‑shape analysis.  
+- **pydeconv** — GPU‑accelerated deconvolution for microscopy.  
+- **nuclear_phenotyping** — Automated nuclear morphology analysis.  
+- Contributions to **Hypha Platform**, **BioImage Model Zoo**, **BIA Binder**, **Hypha Helm Charts**, **COVID Workflow Manager**.
 
-## Selected Publications
+## Skills
 
-<div id="publications-list">
-<!-- Publications will be loaded dynamically via API only -->
-</div>
-
-<script src="{{ '/assets/js/publications.js' | relative_url }}"></script>
-
-<a href="https://scholar.google.com/citations?user=XVt7BYQAAAAJ&hl=en" target="_blank" rel="noopener">View all publications on Google Scholar →</a>
-
-## Technical Skills
-
-### Machine Learning & AI
-- **Foundation Models**: Multi-modal LLM fine-tuning, OOD prediction, self-supervised learning
-- **Deep Learning**: PyTorch, TensorFlow, Lightning, probabilistic programming (Pyro.ai), Hugging Face
-- **Computer Vision**: Bio-image analysis, 3D reconstruction, segmentation, super-resolution
-- **Biological Data**: snRNAseq, bulk RNAseq, histopathology, fluorescence imaging, GNNs for systems biology
-
-### Programming & Infrastructure
-- **Languages**: Python (8+ years), R, MATLAB, C++, Java
-- **Scientific Computing**: NumPy, SciPy, Pandas, scikit-learn, OpenCV, scikit-image
-- **GPU Computing**: Multi-GPU training on NVIDIA A100/V100 clusters, CUDA optimization, distributed training across HPC environments, SLURM job scheduling, GCP/AWS GPU instances
-- **Cloud & DevOps**: GCP, AWS, Kubernetes, Docker, CI/CD, Terraform
-- **Workflow Management**: Snakemake, Nextflow, Apache Airflow
-- **Model Deployment**: NVIDIA Triton, KServe, MLflow
-
-## Open Source Projects
-
-### Major Contributions
-
-- **[bioimage_embed](https://github.com/ctr26/bioimage_embed)**: Self-supervised learning framework for biological image analysis
-- **[shape_embed](https://github.com/ctr26/shape_embed)**: Deep learning toolkit for cell shape analysis
-- **[pydeconv](https://github.com/ctr26/pydeconv)**: GPU-accelerated deconvolution library for microscopy
-- **[nuclear_phenotyping](https://github.com/ctr26/nuclear_phenotyping)**: Automated nuclear morphology analysis pipeline
-
-### Infrastructure Projects
-
-- **[Hypha Platform](https://hypha.imjoy.io/)**: Distributed computing platform for bioimage analysis
-- **[BioImage Model Zoo](https://bioimage.io)**: Community-driven repository for deep learning models
-- **[BIA Binder](https://binder.bioimagearchive.org/)**: Interactive notebook platform for bioimage analysis
-- **[Hypha Helm Charts](https://github.com/amun-ai/hypha-helm-charts)**: Kubernetes deployment templates
-- **[COVID Workflow Manager](https://github.com/enasequence/covid-workflow-manager)**: ETL pipeline orchestration
+**ML & AI:** Foundation‑model fine‑tuning, contrastive/self‑supervised learning, OOD & uncertainty, evaluation/ablation design  
+**Frameworks:** PyTorch, TensorFlow, Lightning, Pyro, Hugging Face, scikit‑learn  
+**Vision & Bio:** Bioimage analysis, 3D reconstruction, segmentation/super‑resolution, **snRNA‑seq/bulk RNA‑seq**, histopathology, fluorescence imaging, **GNNs**, knowledge graphs  
+**Languages:** Python (primary), R, MATLAB, C++, Java  
+**Compute:** Multi‑GPU training (A100/V100), CUDA, distributed training, SLURM, HPC, GCP/AWS GPU instances  
+**MLOps/Infra:** Kubernetes, Docker, **NVIDIA Triton**, **KServe**, MLflow, CI/CD, Terraform  
+**Workflows:** Nextflow, Snakemake, Apache Airflow
 
 ## Grants & Awards
+- **AI4LIFE** (2022) — Co‑investigator on **€5M** EU grant (federated bioimage AI)  
+- **EPSRC CDT Studentship** (2013–2018) — Photonic & Electronic Systems CDT (£120k)  
+- **Nuffield Research Bursary** (2012) — Computer vision for liquid‑crystal flows  
+- **Institute of Physics** grant support (2009–2012)
 
-- **AI4LIFE** (2022): Co-investigator on €5M EU grant for federated bioimage AI infrastructure
-- **EPSRC CDT Studentship** (2013-2018): [Photonic and Electronic Systems CDT](https://www.pes-cdt.org/) full funding (£120k)
-- **Nuffield Research Bursary** (2012): Computer vision for liquid crystal flow analysis
-- **Institute of Physics Grant** (2009-2012): Household means support
+## Teaching, Mentoring & Service
+- **Course lead:** Deep Learning for Bioimage Analysis (2019–2023), 40+ participants/year  
+- **Supervision:** 6 PhD students (AI & spatial biology) + 3 project students (PhD years)  
+- **Peer review:** Nature Methods, Scientific Reports, Journal of Microscopy, ISBI, **ICASSP**  
+- **Talks & conferences:** FOM (2018, 2022, 2023), MMC (2018, 2022), CBIAS (2023)  
+- **Community leadership:** Rowing captain/coach (Magdalene College), Mountaineering Club President (NTU)
 
-## Teaching & Leadership
-
-### Course Development & Delivery
-- **Deep Learning for Bioimage Analysis** (2019-2023): Annual course at EMBL-EBI for 40+ participants
-- **Mathematics Tutorials** (2015-2018): First-year Natural Sciences at Magdalene College, Cambridge
-- **C Programming Workshops** (2015): Clare College Summer School
-- **Quantum Mechanics & Scientific Ethics** (2014-2016): Reach Summer School, Cambridge
-
-### Research Supervision
-- 6 PhD students in AI and spatial biology (2022-2024)
-- 3 project students during PhD (2014-2018)
-
-### Community Leadership
-- Lower Boats Captain & Coach, Magdalene College (2014-2018)
-- Mountaineering Club President, NTU (2011-2012)
-
----
-
-## Professional Service
-
-- **Peer Review**: Nature Methods, Scientific Reports, Journal of Microscopy, ISBI, ICASP
-- **Conference Presentations**: FOM (2018, 2022, 2023), MMC (2018, 2022), CBIAS (2023)
-- **Open Source**: Maintainer of multiple scientific software packages
-- **Professional Membership**: Institute of Physics
-
-*References available upon request*
+*References available upon request.*
