@@ -3,7 +3,7 @@ title: Machine Learning Scientist — Drug Discovery (Foundation Models)
 layout: default
 ---
 
-London, UK • linkedin.com/in/ctr26 • github.com/ctr26 • Google Scholar
+London, UK • [linkedin.com/in/ctr26](https://linkedin.com/in/ctr26) • [github.com/ctr26](https://github.com/ctr26) • [Google Scholar](https://scholar.google.com/citations?user=XVt7BYQAAAAJ&hl=en)  
 *Focus:* Virtual cells, multi‑modal foundation models, omics + imaging, precision medicine
 
 ## Professional Summary
@@ -25,7 +25,7 @@ London, UK • Oct 2024 – Present
 Cambridge, UK • Dec 2022 – Oct 2024  
 - **Team leadership:** Supervised **6 PhD students**; established coding standards, CI, and peer‑review practices used across the lab.  
 - **Spatial biology:** Built deep‑learning pipelines for **high‑content cell morphology** and single‑cell feature learning; integrated with public bioimage resources.  
-- **Open‑source:** Created **bioimage_embed** (self‑supervised biological images) and **shape_embed** (cell‑shape DL toolkit); productionised training/inference.  
+- **Open‑source:** Created **[bioimage_embed](https://github.com/uhlmanngroup/bioimage_embed)** (self‑supervised biological images) and **[shape_embed](https://arxiv.org/abs/2507.01009)** (cell‑shape DL toolkit); productionised training/inference.  
 - **MLOps:** Designed scalable pipelines processing **TB‑scale microscopy datasets** across HPC and cloud; containerised workflows, automated experiment tracking.  
 - **Academic service:** Reviewer — ISBI 2022/2023, **ICASSP** 2024.
 
@@ -86,10 +86,8 @@ See **Google Scholar** for complete publication list: [scholar.google.com/citati
 - **TxPert: Transcriptomic Perturbation Prediction** • Patent pending • 2024 • Systems‑biology knowledge graph integration for gene expression response forecasting (Recursion)
 
 ## Open Source (Selected)
-- **bioimage_embed** — Self‑supervised learning for biological images.  
-- **shape_embed** — Deep‑learning toolkit for cell‑shape analysis.  
-- **pydeconv** — GPU‑accelerated deconvolution for microscopy.  
-- **nuclear_phenotyping** — Automated nuclear morphology analysis.  
+- **[bioimage_embed](https://github.com/uhlmanngroup/bioimage_embed)** — Self‑supervised learning for biological images.  
+- **[shape_embed](https://arxiv.org/abs/2507.01009)** — Deep‑learning toolkit for cell‑shape analysis.  
 - Contributions to **Hypha Platform**, **BioImage Model Zoo**, **BIA Binder**, **Hypha Helm Charts**, **COVID Workflow Manager**.
 
 ## Skills
