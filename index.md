@@ -17,7 +17,7 @@ Foundation models • Representation/self‑supervised learning • Multi‑moda
 **Senior Machine Learning Scientist — Valence Labs @ Recursion Pharmaceuticals**  
 London, UK • Oct 2024 – Present  
 - **Virtual Cell initiative:** Fine‑tune multi‑modal LLMs over **knowledge graphs + text + RNA‑seq + phenotypic imaging** to model cell state and predict gene/drug responses; partnered closely with biology to design benchmark tasks and success metrics.  
-- **TxPert (NeurIPS 2025):** Co‑developed a **state‑of‑the‑art transcriptomic perturbation predictor** using systems‑biology KGs; contributed training code, data curation, and ablations.  
+- **TxPert:** Co‑developed a **state‑of‑the‑art transcriptomic perturbation predictor** using systems‑biology KGs; contributed training code, data curation, and ablations.  
 - **Boltz2 project:** Contributed to proteome‑scale **virtual drug screening** components; supported evaluation strategy and error analysis across targets.  
 - **Community:** Organiser, **Virtual Cell Journal Club**; fostered reading group bridging ML and wet‑lab teams.
 
