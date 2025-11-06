@@ -68,10 +68,18 @@ London, UK • 2018 – Dec 2019
 - Top physics graduate; President, Mountaineering Club (2011–2012).
 
 ## Selected Publications & Preprints
-- See **Google Scholar** for the full list. Include **3–5** most relevant to drug discovery/foundation models directly here when submitting to roles.  
-  - Example placeholders:  
-    - *TxPert: Transcriptomic Perturbation Prediction with Systems‑Biology KGs* (NeurIPS 2025).  
-    - *Self‑supervised representation learning for biological images* (bioimage_embed).  
+
+1. **Wenkel F**, Tu W, Masschelein C, Shirzad H, Eastwood C, Whitfield ST, Bendidi I, **Russell CT**, et al. *TxPert: Leveraging Biochemical Relationships for Out‑of‑Distribution Transcriptomic Perturbation Prediction.* arXiv:2505.14919 (2025)
+
+2. Harrison PW, Lopez R, Rahman N, Allen SG, Aslam R, Buso N, **Russell CT**, et al. *The COVID‑19 Data Portal: accelerating SARS‑CoV‑2 and COVID‑19 research through rapid open access data sharing.* Nucleic Acids Research 49(W1):W619–W623 (2021)
+
+3. Ouyang W, Beuttenmueller F, Gómez‑de‑Mariscal E, Pape C, Burke T, Garcia‑López‑de Haro C, **Russell C**, et al. *Bioimage model zoo: a community‑driven resource for accessible deep learning in bioimage analysis.* BioRxiv 2022.06.07.495102 (2022)
+
+4. Ahlers J, Moré DA, Amsalem O, Anderson A, Bokota G, Boone P, **Russell C**, et al. *napari: a multi‑dimensional image viewer for Python.* Zenodo 1–2 (2023)
+
+5. Hidalgo‑Cenalmor I, Pylvänäinen JW, Ferreira MG, **Russell CT**, et al. *DL4MicEverywhere: deep learning for microscopy made flexible, shareable and reproducible.* Nature Methods 21(6):925–927 (2024)
+
+See **Google Scholar** for complete publication list: [scholar.google.com/citations?user=XVt7BYQAAAAJ](https://scholar.google.com/citations?user=XVt7BYQAAAAJ&hl=en)  
 
 ## Patents
 - **Virtual Cell Foundation Model** • Patent pending • 2024 • Multi‑modal integration of knowledge graphs, transcriptomics and imaging for cellular state prediction (Hook1/Recursion)
