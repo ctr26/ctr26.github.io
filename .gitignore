@@ -9,3 +9,6 @@ _site/
 # Jekyll metadata
 .jekyll-metadata
 
+
+# Vale linter — fetched via `vale sync`, not for commit
+.vale-styles/
