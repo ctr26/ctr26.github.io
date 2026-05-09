@@ -36,6 +36,7 @@ scientific communication.
 ## Experience
 
 ### Senior Machine Learning Scientist, Valence Labs at Recursion Pharmaceuticals
+
 London, UK. Oct 2024 to present.
 
 - Virtual Cell initiative: I fine-tune multi-modal LLMs over knowledge graphs, free text, RNA-seq and phenotypic imaging to model cell state and predict gene and drug responses; I partner with biology to design benchmark tasks and success metrics.
@@ -45,6 +46,7 @@ London, UK. Oct 2024 to present.
 - Community: I organise the Virtual Cell Journal Club, bridging ML and wet-lab teams.
 
 ### Senior Research Associate and AI Engineering Lead, EMBL-EBI (Uhlmann Group and BioImage Archive)
+
 Cambridge, UK. Dec 2022 to Oct 2024.
 
 - Team leadership: I supervised six PhD students; I established coding standards, CI, and peer-review practices used across the lab.
@@ -54,17 +56,20 @@ Cambridge, UK. Dec 2022 to Oct 2024.
 - Academic service: Reviewer, ISBI 2022 and 2023, ICASSP 2024.
 
 ### AI/ML Founding Engineer, Amun AI AB
+
 Stockholm, Sweden. 2022 to 2024.
 
 - I built a GKE/Kubernetes platform for model serving with NVIDIA Triton and KServe; it supported 100+ models for 30+ daily users with auth, monitoring and autoscaling.
 
 ### AI/ML Engineering Consultant, DeepMirror
+
 Cambridge and London, UK. 2022 to 2024.
 
 - MouseMindMapper: I delivered an automated brain-histology segmentation product generating £50k annual revenue, end to end across data, training, packaging and docs.
 - I wrote a high-performance C++ cheminformatics fingerprinting library for production use.
 
 ### Data Scientist, Brazma Group at EMBL-EBI
+
 Cambridge, UK. Dec 2019 to Dec 2023.
 
 - I co-authored the AI4LIFE €5M EU grant on federated bioimage AI infrastructure; I contributed platform architecture and model-sharing strategy.
@@ -72,12 +77,14 @@ Cambridge, UK. Dec 2019 to Dec 2023.
 - I taught annual deep-learning courses to 40+ researchers (PhD to PI).
 
 ### Software Engineer (COVID-19 Response), European Nucleotide Archive at EMBL-EBI
+
 Cambridge, UK. Mar 2020 to Sept 2020.
 
 - I built CI/CD for the COVID-19 Data Portal to enable daily global data updates.
 - I scaled NGS alignment and Nextflow/Kubernetes ETL pipelines for the pandemic data surge.
 
 ### Computational Microscopist, National Physical Laboratory
+
 London, UK. 2018 to Dec 2019.
 
 - I developed novel 3D organoid segmentation methods for cancer research; I delivered consultancy to MSquared on advanced imaging.
@@ -85,6 +92,7 @@ London, UK. 2018 to Dec 2019.
 ## Education
 
 ### PhD, Engineering, University of Cambridge
+
 2014 to 2018. EPSRC PES-CDT studentship, £120k.
 
 Thesis: "Light-sheet microscopy for tracking particles in large specimens."
@@ -94,11 +102,13 @@ Thesis: "Light-sheet microscopy for tracking particles in large specimens."
 - I supervised two MRes and one BSc student.
 
 ### MRes, Photonics, University of Cambridge and UCL
+
 2013 to 2014. EPSRC Photonics CDT.
 
 - Structured-illumination microscopy reconstruction; modules in computer vision, quantum mechanics, photonics.
 
 ### MSci, Physics (First-Class Honours), Nottingham Trent University
+
 2009 to 2013.
 
 - Top physics graduate.
