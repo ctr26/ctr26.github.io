@@ -1,0 +1,11 @@
+{
+  // CV and prose use LaTeX-style ventilated prose: one sentence per line.
+  // Disable hard line-length cap; sentences run as long as they need to.
+  "MD013": false,
+  // Ordered list flexibility for publication numbering.
+  "MD029": false,
+  // Allow inline HTML (we use angle brackets for emails).
+  "MD033": false,
+  // Don't require H1 at top of file (Jekyll layout supplies title).
+  "MD041": false
+}
