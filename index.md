@@ -116,11 +116,13 @@ Thesis: "Light-sheet microscopy for tracking particles in large specimens."
 
 ## Selected publications and preprints
 
-1. Wenkel F, Tu W, Masschelein C, Shirzad H, Eastwood C, Whitfield ST, Bendidi I, **Russell CT**, et al. *TxPert: Leveraging Biochemical Relationships for Out-of-Distribution Transcriptomic Perturbation Prediction.* arXiv:2505.14919 (2025).
-2. Hidalgo-Cenalmor I, Pylvänäinen JW, Ferreira MG, **Russell CT**, et al. *DL4MicEverywhere: deep learning for microscopy made flexible, shareable and reproducible.* Nature Methods 21(6):925 to 927 (2024).
-3. Ahlers J, Moré DA, Amsalem O, Anderson A, Bokota G, Boone P, **Russell C**, et al. *napari: a multi-dimensional image viewer for Python.* Zenodo (2023).
-4. Ouyang W, Beuttenmueller F, Gómez-de-Mariscal E, Pape C, Burke T, Garcia-López-de Haro C, **Russell C**, et al. *Bioimage model zoo: a community-driven resource for accessible deep learning in bioimage analysis.* bioRxiv 2022.06.07.495102 (2022).
-5. Harrison PW, Lopez R, Rahman N, Allen SG, Aslam R, Buso N, **Russell CT**, et al. *The COVID-19 Data Portal: accelerating SARS-CoV-2 and COVID-19 research through rapid open access data sharing.* Nucleic Acids Research 49(W1):W619 to W623 (2021).
+1. Foix Romero A, **Russell C**, Krull A, Uhlmann V. *ShapeEmbed: a self-supervised learning framework for 2D contour quantification.* arXiv:2507.01009 (2025).
+2. Wenkel F, Tu W, Masschelein C, Shirzad H, Eastwood C, Whitfield ST, Bendidi I, **Russell CT**, et al. *TxPert: Leveraging Biochemical Relationships for Out-of-Distribution Transcriptomic Perturbation Prediction.* arXiv:2505.14919 (2025).
+3. (MIFA - Nature Methods 22(11):2245-2252, 2025 - co-author; full citation TBC by Craig)
+4. Hidalgo-Cenalmor I, Pylvänäinen JW, Ferreira MG, **Russell CT**, et al. *DL4MicEverywhere: deep learning for microscopy made flexible, shareable and reproducible.* Nature Methods 21(6):925 to 927 (2024).
+5. Ahlers J, Moré DA, Amsalem O, Anderson A, Bokota G, Boone P, **Russell C**, et al. *napari: a multi-dimensional image viewer for Python.* Zenodo (2023).
+6. Ouyang W, Beuttenmueller F, Gómez-de-Mariscal E, Pape C, Burke T, Garcia-López-de Haro C, **Russell C**, et al. *Bioimage model zoo: a community-driven resource for accessible deep learning in bioimage analysis.* bioRxiv 2022.06.07.495102 (2022).
+7. Harrison PW, Lopez R, Rahman N, Allen SG, Aslam R, Buso N, **Russell CT**, et al. *The COVID-19 Data Portal: accelerating SARS-CoV-2 and COVID-19 research through rapid open access data sharing.* Nucleic Acids Research 49(W1):W619 to W623 (2021).
 
 Full list at [Google Scholar](https://scholar.google.com/citations?user=XVt7BYQAAAAJ&hl=en).
 
