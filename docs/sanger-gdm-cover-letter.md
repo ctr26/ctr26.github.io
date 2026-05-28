@@ -10,13 +10,16 @@ Wellcome Sanger Institute & Google DeepMind Academic Fellowship Programme
 
 ## Why Sanger, and why now
 
-This Fellowship sits where my work is heading.
+A growing call for the virtual cell sits across the field, with two paths in view: top-down or bottom-up.
+Bottom-up means simulating biology from molecular kinetics, in the spirit of Karr et al.'s whole-cell Mycoplasma model (Cell, 2012); by conservative estimates this would need compute on the timescale of the universe itself, absent a quantum leap.
+Top-down means learning the cell from data at the scales now becoming available; this *might* be enough to resolve disease without first bridging to bottom-up.
 I want to take the multimodal foundation-model approaches I have built in industry and ground them in the world's richest genomics environment, to address fundamental biological questions.
+Recursion's Maps and Sanger's Atlases are complementary geometries of biology: perturbation-response at industrial scale versus cell-type and tissue coverage at population scale.
 Sanger is the only UK site where atlas-scale single-cell data (Cellular Genomics), a programme committed to predictive biology (Generative Genomics), and a strategic commitment to AI for science sit in one building.
 I want to spend three years there.
 
-I am Senior Machine Learning Scientist at Valence Labs / Recursion Pharmaceuticals.
-I lead components of the Virtual Cell initiative, fine-tuning multimodal LLMs over knowledge graphs, free text, transcriptomic and phenotypic imaging data to predict cell state and drug response.
+I am an ML research scientist at Valence Labs / Recursion Pharmaceuticals.
+I lead projects exploring agnostic representation learning of biology through images, in collaboration with Google Cloud, alongside research efforts on the Virtual Cell initiative, thinking carefully about how to fine-tune multimodal LLMs over knowledge graphs, free text, transcriptomic and phenotypic imaging data to predict cell state and drug response.
 I co-developed TxPert (arXiv:2505.14919), a transcriptomic perturbation predictor, and contributed to the Boltz2 proteome-scale virtual screening pipeline.
 Before Recursion I led AI engineering at EMBL-EBI's BioImage Archive and Uhlmann Group, supervised six PhD students, and released `bioimage_embed` (self-supervised learning for biological images) and `shape_embed` (cell-shape representation, arXiv:2507.01009) as community resources.
 My PhD (Cambridge, 2018) was an instrument-building project: I designed and built a light-sheet microscope from scratch.
@@ -46,6 +49,7 @@ Constrained decoding restricted to a closed vocabulary of valid Ensembl IDs, HGN
 The result is an agent that proposes follow-up experiments (variants to validate, tissues to oversample, perturbations to run) but only inside a sandbox where every leaf claim is checkable.
 This is what separates an LLM that talks about biology from one that can act as a research collaborator.
 GDM mentorship is most directly useful here: the inference-engineering and constrained-generation work at DeepMind on AlphaFold's confidence calibration and the AlphaProof verifier loop is the lineage I want to bring into genomics.
+Beyond single-agent verification, I am keen to push further into agentic swarms: ensembles of agents with strong inference programming, using tools and counterfactuals to surface novel biology, with cross-agent disagreement as an additional verification signal.
 
 Three deliverables in year one.
 (i) A Sanger-anchored multimodal foundation model trained jointly on Cellular Genomics atlases (H&E + Xenium + scRNA-seq + ATAC), with public benchmarks for cross-modal counterfactual prediction.
