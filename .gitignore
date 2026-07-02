@@ -9,3 +9,6 @@ _site/
 # Jekyll metadata
 .jekyll-metadata
 
+
+# Vendored Vale linter styles (fetched via `vale sync`)
+.vale-styles/
