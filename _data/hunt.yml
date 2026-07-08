@@ -1,0 +1,58 @@
+# =============================================================================
+# King's Cross Treasure Hunt — _data/hunt.yml
+# =============================================================================
+#
+# SCHEMA
+# ------
+# stages: (ordered list)
+#   - title:       Human-readable stage name (shown in progress bar)
+#   - clue:        PLAINTEXT clue — ONLY for stage 1 (the entry point)
+#   - clue_enc:    BASE64(IV || AES-GCM ciphertext) of the clue text,
+#                  encrypted with SHA-256(normalize(PREVIOUS stage's answer))
+#   - answer_check: hex(SHA-256(normalize(THIS stage's answer)))
+#                   Used to verify a typed password before using it as the next key.
+#
+# finish:          Message shown after the last stage is solved.
+#
+# NORMALIZATION RULE (applies to ALL answers — yours must match after this):
+#   1. Trim leading/trailing whitespace
+#   2. Lowercase
+#   3. Collapse internal whitespace to a single space
+#   Examples: "  SIX  " → "six"  |  "Coal  Drops   Yard" → "coal drops yard"
+#
+# TO AUTHOR A HUNT:
+#   1. Open /hunt-admin/ in your browser (works locally or on the deployed site)
+#   2. Enter your clue texts and answers in order
+#   3. Click "Generate YAML" — the tool encrypts each clue in-browser
+#   4. Copy-paste the generated YAML here, replacing the stages: block
+#   5. Commit and push
+#
+# SECURITY NOTE:
+#   This is tamper-resistant, not cryptographically unbreakable.
+#   A determined developer can extract keys stage-by-stage (each answer
+#   unlocks only the next clue), but cannot skip ahead without solving
+#   each stage in order. Perfect for a friendly walking hunt.
+# =============================================================================
+
+stages:
+  - title: "Clue 1 — The Clocktower"
+    clue: |
+      Welcome to the King's Cross Treasure Hunt! 🚂
+
+      Head to the front of King's Cross station on Euston Road. Look up at the spectacular Victorian roof. How many large arched windows are visible on the upper section of the station frontage?
+
+      (Enter your answer below to unlock the next clue)
+    answer_check: "44778d82365e4af681c40d5f0eef5cf6f5899d3f0ac335050a7ed6779cf3f674"
+
+  - title: "Clue 2 — Coal Drops Yard"
+    clue_enc: "XpD1QspOUdDvrI49w4T7ppySwCBcGpjnBHmBFE8tRMPYYXMSgXuS470FRhJnBgSGSfEwfBj6utrgfNrRUel4+qUMJ7iUV2WEtQbnav4+HIAD5R1v8tRHGysZGbHyJzed6S+k29Ga6NkbyznQNQEFLhQ5tGPIk2Z0aHL1oI9qK93QNPUs6PXsOc1NYZRsRhe3/QIfQDgezyRTbPKMjmm7/4TZVAsbPIqw3JXBhiLOswXa6Sci/3Kvwfvxm7a2k204Jim8EFd4ZGPJFYeereFB1TqZ7gnLnsc4WOYEtSwFqrjflQorJad5/VKvk4o5xMpYslXRCissNpYeXU+Yf1wMo1Vi18i6YMuIxBsxVNWznBCmVom/1dKPX+NLyH08bf2G2ATPwEZNwXu14ynazB5JcJzublxkZG9cwuH8qmTwwVy3gj7klwCFDgCE8j8VD2e/gdoj7765HS1VyrQqgxXsJttGZunL8vXQ86zsSLzG1tNy6njelkAu2Sz/0T+UX/7fsRAD0Gm5"
+    answer_check: "39486c8563aca773e7ec9b8af42d46faafc7c835517a45aba50e7a34ec465c39"
+
+  - title: "Clue 3 — Platform 9¾"
+    clue_enc: "Sqxu/uMK50fjEeejrhS9aWhQ5eT/H7dIGhNzOwqfwabo9rAq5oTxymyT9JKQDi7FC52z9TpxUU7PMRqwRQHHkzMTV7ldGeQAiDrGgE4/hYJ3iood9QVNTbYupafU6ytmIxa0uw9Iof0eY4gxrADXsoIM2/RTEfL8NSUknwSkT9LttdR2cD3MvsEA9qHSY4tUT1A6N5DL5lKGir+jzINOk+IaN3Rlt4vzwKk4v0j8z5L+nESYvHyPHdUfBnjiiL4ZNqMGgQs9OxnBOZJdaM608Ozj91gBILe3/gvRBj51lrbBhpQ62fEiszZ4q0CHe2aDsnBWIUl6eocREDgflkfp48hzF88kx8W4aVolipV1+JijlF7QlKiA"
+    answer_check: "8284a321f1477ebbb651f4c60aa51415ad3cb80ac8421206f154108eb8e13840"
+
+finish: |
+  🎉 Congratulations — you've completed the King's Cross Treasure Hunt!
+
+  Make your way back to the starting point for your prize.

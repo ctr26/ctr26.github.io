@@ -1,0 +1,473 @@
+---
+layout: default
+title: "Hunt Admin — Generate Encrypted YAML"
+permalink: /hunt-admin/
+robots: noindex, nofollow
+description: "Private authoring tool for the King's Cross Treasure Hunt"
+---
+
+<style>
+/* ---- Admin tool styles ---- */
+.admin-wrapper {
+  max-width: 52em;
+  margin: 0 auto;
+}
+
+.admin-warning {
+  background: #fff3cd;
+  border: 2px solid #ffc107;
+  border-radius: 4px;
+  padding: 0.75em 1em;
+  margin-bottom: 1.5em;
+  color: #856404;
+  font-size: 0.95em;
+}
+
+.admin-norm-rule {
+  background: rgba(128,128,128,0.1);
+  border-left: 4px solid #6c8ebf;
+  padding: 0.6em 1em;
+  margin-bottom: 1.5em;
+  font-size: 0.9em;
+}
+
+.admin-norm-rule code {
+  font-size: 0.95em;
+}
+
+.admin-stages {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5em 0;
+}
+
+.admin-stage {
+  border: 2px solid rgba(128,128,128,0.3);
+  border-radius: 4px;
+  padding: 1em;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.admin-stage-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  margin-bottom: 0.75em;
+  flex-wrap: wrap;
+}
+
+.admin-stage-num {
+  font-weight: bold;
+  font-size: 1.05em;
+  flex-shrink: 0;
+}
+
+.admin-stage input[type="text"] {
+  font-size: 0.95em;
+}
+
+.admin-stage-title-input {
+  flex: 1;
+  min-width: 12em;
+}
+
+.admin-stage textarea {
+  width: 100%;
+  min-height: 7em;
+  font-family: monospace;
+  font-size: 0.9em;
+  resize: vertical;
+  padding: 0.5em 0.75em;
+  margin-bottom: 0.5em;
+}
+
+.admin-stage-answer-row {
+  display: flex;
+  gap: 0.75em;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.admin-stage-answer-row label {
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.admin-stage-answer-row input {
+  flex: 1;
+  min-width: 12em;
+}
+
+.admin-remove-btn {
+  margin-left: auto;
+  min-width: 0;
+  font-size: 0.8em;
+  opacity: 0.6;
+}
+
+.admin-remove-btn:hover {
+  opacity: 1;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin-bottom: 1.5em;
+}
+
+.admin-finish-label {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  display: block;
+}
+
+.admin-finish-textarea {
+  width: 100%;
+  min-height: 5em;
+  font-family: monospace;
+  font-size: 0.9em;
+  resize: vertical;
+  padding: 0.5em 0.75em;
+  margin-bottom: 1em;
+}
+
+.admin-output-section {
+  margin-top: 2em;
+  border-top: 2px solid rgba(128,128,128,0.3);
+  padding-top: 1.5em;
+}
+
+.admin-output-header {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 0.75em;
+  flex-wrap: wrap;
+}
+
+.admin-output-header h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.admin-output-textarea {
+  width: 100%;
+  min-height: 20em;
+  font-family: monospace;
+  font-size: 0.85em;
+  resize: vertical;
+  padding: 0.75em;
+}
+
+.admin-status {
+  margin-top: 0.75em;
+  font-size: 0.9em;
+  font-weight: bold;
+  min-height: 1.5em;
+}
+
+.admin-status-ok { color: #27ae60; }
+.admin-status-err { color: #c0392b; }
+.admin-status-busy { opacity: 0.7; }
+
+@media (max-width: 480px) {
+  .admin-stage-header,
+  .admin-stage-answer-row,
+  .admin-actions,
+  .admin-output-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .admin-remove-btn { margin-left: 0; }
+}
+</style>
+
+<div class="admin-wrapper">
+  <h1>🗺️ Hunt Admin Tool</h1>
+  <p>Enter your clues and answers below. Click <strong>Generate YAML</strong> to produce encrypted output for <code>_data/hunt.yml</code>. Everything runs in your browser — nothing is sent to a server.</p>
+
+  <div class="admin-warning">
+    ⚠️ <strong>Unlinked admin page</strong> — this page is not linked from anywhere on the site, but it is publicly accessible if someone knows the URL (<code>/hunt-admin/</code>). Do not enter sensitive information here. The encryption keys are derived from answers; keep your answers secret.
+  </div>
+
+  <div class="admin-norm-rule">
+    <strong>Normalization rule</strong> — answers are normalized before hashing/encrypting. Your clue participants' typed answers go through the same rule. Make sure your answers match after normalization:<br>
+    <code>trim → lowercase → collapse internal whitespace to single spaces</code><br>
+    Example: <code>"  Coal  Drops  Yard  "</code> → <code>"coal drops yard"</code>
+  </div>
+
+  <h2>Stages</h2>
+  <ul class="admin-stages" id="admin-stages">
+    <!-- Populated by JS -->
+  </ul>
+
+  <div class="admin-actions">
+    <button class="button" id="admin-add-stage">+ Add stage</button>
+    <button class="button primary" id="admin-generate">⚙️ Generate YAML</button>
+  </div>
+
+  <div>
+    <label class="admin-finish-label" for="admin-finish">Finish message (shown when all clues solved):</label>
+    <textarea class="admin-finish-textarea" id="admin-finish">🎉 Congratulations — you've completed the treasure hunt!</textarea>
+  </div>
+
+  <div class="admin-output-section" id="admin-output-section" style="display:none">
+    <div class="admin-output-header">
+      <h2>Generated YAML</h2>
+      <button class="button small" id="admin-copy">📋 Copy to clipboard</button>
+    </div>
+    <p>Copy this into <code>_data/hunt.yml</code>, replacing the <code>stages:</code> and <code>finish:</code> blocks.</p>
+    <textarea class="admin-output-textarea" id="admin-output" readonly></textarea>
+    <p class="admin-status" id="admin-status"></p>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var encoder = new TextEncoder();
+  var stageCount = 0;
+
+  // ---- Normalization (must match hunt.js exactly) ----
+  function normalize(s) {
+    return s.trim().toLowerCase().replace(/\s+/g, ' ');
+  }
+
+  // ---- Crypto helpers ----
+  function hexEncode(buf) {
+    return Array.from(new Uint8Array(buf))
+      .map(function (b) { return b.toString(16).padStart(2, '0'); })
+      .join('');
+  }
+
+  function uint8ArrayToBase64(bytes) {
+    var binary = '';
+    for (var i = 0; i < bytes.length; i++) {
+      binary += String.fromCharCode(bytes[i]);
+    }
+    return btoa(binary);
+  }
+
+  function sha256(str) {
+    return crypto.subtle.digest('SHA-256', encoder.encode(normalize(str)));
+  }
+
+  function sha256Hex(str) {
+    return sha256(str).then(function (buf) { return hexEncode(buf); });
+  }
+
+  function deriveEncryptKey(answer) {
+    return sha256(answer).then(function (raw) {
+      return crypto.subtle.importKey('raw', raw, { name: 'AES-GCM' }, false, ['encrypt']);
+    });
+  }
+
+  function encryptClue(plaintext, keyAnswer) {
+    return deriveEncryptKey(keyAnswer).then(function (key) {
+      var iv = new Uint8Array(12);
+      crypto.getRandomValues(iv);
+      return crypto.subtle.encrypt({ name: 'AES-GCM', iv: iv }, key, encoder.encode(plaintext))
+        .then(function (ct) {
+          var combined = new Uint8Array(12 + ct.byteLength);
+          combined.set(iv, 0);
+          combined.set(new Uint8Array(ct), 12);
+          return uint8ArrayToBase64(combined);
+        });
+    });
+  }
+
+  // ---- Stage DOM management ----
+  function addStage(clue, title, answer) {
+    stageCount++;
+    var n = stageCount;
+    var li = document.createElement('li');
+    li.className = 'admin-stage';
+    li.dataset.n = n;
+
+    var titleVal = title || ('Clue ' + n + ' — ');
+    var clueVal = clue || '';
+    var answerVal = answer || '';
+
+    li.innerHTML =
+      '<div class="admin-stage-header">'
+      + '<span class="admin-stage-num">Stage ' + n + '</span>'
+      + '<input type="text" class="admin-stage-title-input" placeholder="Stage title (optional)" value="' + esc(titleVal) + '">'
+      + (n > 1 ? '<button class="button small admin-remove-btn" data-n="' + n + '">Remove</button>' : '')
+      + '</div>'
+      + '<label>Clue text:</label>'
+      + '<textarea class="admin-stage-clue" placeholder="Enter the clue text participants will read at this stage…">' + esc(clueVal) + '</textarea>'
+      + '<div class="admin-stage-answer-row">'
+      + '<label>Answer:</label>'
+      + '<input type="text" class="admin-stage-answer" placeholder="The answer (case-insensitive, whitespace-normalised)" value="' + esc(answerVal) + '">'
+      + '</div>';
+
+    document.getElementById('admin-stages').appendChild(li);
+
+    // Remove button
+    var removeBtn = li.querySelector('.admin-remove-btn');
+    if (removeBtn) {
+      removeBtn.addEventListener('click', function () {
+        li.remove();
+        renumberStages();
+      });
+    }
+  }
+
+  function renumberStages() {
+    var stages = document.querySelectorAll('.admin-stage');
+    stages.forEach(function (s, i) {
+      var n = i + 1;
+      var numEl = s.querySelector('.admin-stage-num');
+      if (numEl) { numEl.textContent = 'Stage ' + n; }
+      // Update remove buttons — stage 1 never gets a remove button
+      var existingRemove = s.querySelector('.admin-remove-btn');
+      if (n === 1 && existingRemove) {
+        existingRemove.remove();
+      } else if (n > 1 && !existingRemove) {
+        var header = s.querySelector('.admin-stage-header');
+        var btn = document.createElement('button');
+        btn.className = 'button small admin-remove-btn';
+        btn.textContent = 'Remove';
+        btn.addEventListener('click', function () { s.remove(); renumberStages(); });
+        header.appendChild(btn);
+      }
+    });
+  }
+
+  function esc(s) {
+    return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function getStageData() {
+    var stages = document.querySelectorAll('.admin-stage');
+    var data = [];
+    stages.forEach(function (s) {
+      data.push({
+        title: s.querySelector('.admin-stage-title-input').value.trim(),
+        clue: s.querySelector('.admin-stage-clue').value,
+        answer: s.querySelector('.admin-stage-answer').value,
+      });
+    });
+    return data;
+  }
+
+  // ---- YAML generation ----
+  function yamlLiteral(key, text, indent) {
+    var pad = indent || '    ';
+    var lines = [key + ': |'];
+    var textLines = text.split('\n');
+    textLines.forEach(function (line) { lines.push(pad + line); });
+    return lines.join('\n');
+  }
+
+  function yamlString(key, val, indent) {
+    var pad = indent || '    ';
+    return pad.slice(0, -2) + key + ': "' + val.replace(/\\/g, '\\\\').replace(/"/g, '\\"') + '"';
+  }
+
+  async function generate() {
+    var stageData = getStageData();
+    if (stageData.length === 0) {
+      setStatus('No stages to generate.', 'err');
+      return;
+    }
+
+    for (var i = 0; i < stageData.length; i++) {
+      if (!stageData[i].answer.trim()) {
+        setStatus('Stage ' + (i + 1) + ' is missing an answer.', 'err');
+        return;
+      }
+      if (!stageData[i].clue.trim()) {
+        setStatus('Stage ' + (i + 1) + ' is missing clue text.', 'err');
+        return;
+      }
+    }
+
+    setStatus('Encrypting…', 'busy');
+
+    var lines = [];
+    lines.push('# Generated by /hunt-admin/ — paste into _data/hunt.yml');
+    lines.push('#');
+    lines.push('# NORMALIZATION RULE: trim → lowercase → collapse whitespace to single spaces');
+    lines.push('# Answers must match after normalization. Example: "  SIX  " → "six"');
+    lines.push('');
+    lines.push('stages:');
+
+    for (var j = 0; j < stageData.length; j++) {
+      var s = stageData[j];
+      var titleStr = s.title || ('Clue ' + (j + 1));
+      var answerCheck = await sha256Hex(s.answer);
+
+      lines.push('  - title: "' + titleStr.replace(/\\/g, '\\\\').replace(/"/g, '\\"') + '"');
+
+      if (j === 0) {
+        // Stage 1: plaintext clue
+        lines.push('    clue: |');
+        s.clue.split('\n').forEach(function (line) { lines.push('      ' + line); });
+      } else {
+        // Encrypt with previous answer
+        var b64 = await encryptClue(s.clue, stageData[j - 1].answer);
+        lines.push('    clue_enc: "' + b64 + '"');
+      }
+
+      lines.push('    answer_check: "' + answerCheck + '"');
+      if (j < stageData.length - 1) { lines.push(''); }
+    }
+
+    var finishText = document.getElementById('admin-finish').value || '🎉 Congratulations!';
+    lines.push('');
+    lines.push('finish: |');
+    finishText.split('\n').forEach(function (line) { lines.push('  ' + line); });
+
+    var yaml = lines.join('\n');
+    var outputSection = document.getElementById('admin-output-section');
+    var outputTA = document.getElementById('admin-output');
+    outputSection.style.display = '';
+    outputTA.value = yaml;
+    setStatus('✓ Generated ' + stageData.length + ' stage' + (stageData.length === 1 ? '' : 's') + '. Copy the YAML into _data/hunt.yml and commit.', 'ok');
+    outputSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function setStatus(msg, type) {
+    var el = document.getElementById('admin-status');
+    el.textContent = msg;
+    el.className = 'admin-status admin-status-' + (type || '');
+  }
+
+  // ---- Boot ----
+  // Seed with 3 example stages
+  addStage(
+    "Welcome to the King's Cross Treasure Hunt! 🚂\n\nYour first clue goes here. Describe what participants need to find, and what question to answer.\n\n(Enter your answer below to unlock the next clue)",
+    'Clue 1 — Starting Point',
+    ''
+  );
+  addStage('Your second clue text goes here.', 'Clue 2 — ', '');
+  addStage('Your third clue text goes here.', 'Clue 3 — ', '');
+
+  document.getElementById('admin-add-stage').addEventListener('click', function () {
+    addStage('', '', '');
+  });
+
+  document.getElementById('admin-generate').addEventListener('click', function () {
+    generate().catch(function (err) {
+      setStatus('Error: ' + err.message, 'err');
+      console.error(err);
+    });
+  });
+
+  document.getElementById('admin-copy').addEventListener('click', function () {
+    var ta = document.getElementById('admin-output');
+    ta.select();
+    ta.setSelectionRange(0, 999999);
+    navigator.clipboard.writeText(ta.value).then(function () {
+      setStatus('✓ Copied to clipboard!', 'ok');
+    }).catch(function () {
+      setStatus('Select all and copy manually (Ctrl+A, Ctrl+C).', '');
+    });
+  });
+
+})();
+</script>

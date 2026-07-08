@@ -1,0 +1,176 @@
+---
+layout: default
+title: "King's Cross Treasure Hunt"
+permalink: /hunt/
+description: "An outdoor walking treasure hunt around King's Cross. Solve each clue to unlock the next!"
+---
+
+<style>
+/* ---- Hunt page styles ---- */
+.hunt-wrapper {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+
+.hunt-progress {
+  margin-bottom: 1.5em;
+}
+
+.hunt-progress-label {
+  display: block;
+  font-size: 0.85em;
+  color: inherit;
+  opacity: 0.7;
+  margin-bottom: 0.4em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.hunt-progress-bar {
+  width: 100%;
+  height: 0.5em;
+  background: rgba(128,128,128,0.2);
+  border-radius: 0.25em;
+  overflow: hidden;
+}
+
+.hunt-progress-fill {
+  height: 100%;
+  background: #6c8ebf;
+  border-radius: 0.25em;
+  transition: width 0.4s ease;
+}
+
+.hunt-clue {
+  margin-bottom: 1.5em;
+}
+
+.hunt-stage-title {
+  margin-bottom: 0.75em;
+  font-size: 1.2em;
+}
+
+.hunt-clue-text p {
+  margin-bottom: 0.75em;
+}
+
+.hunt-clue-text p:last-child {
+  margin-bottom: 0;
+}
+
+.hunt-form {
+  margin: 0 0 0.75em 0;
+}
+
+.hunt-form label {
+  margin-bottom: 0.5em;
+  font-size: 0.95em;
+}
+
+.hunt-input {
+  width: 100%;
+  font-size: 1.15em;
+  padding: 0.6em 0.75em;
+  margin-bottom: 0.75em;
+  /* Inherits Strata input styles */
+}
+
+/* Override: make input taller for big fingers on mobile */
+.hunt-input {
+  height: auto !important;
+  min-height: 2.8em;
+}
+
+.hunt-submit {
+  width: 100%;
+  font-size: 1.1em;
+  min-width: 0;
+  height: auto !important;
+  padding: 0.8em 1.5em;
+  line-height: 1.3;
+}
+
+.hunt-feedback {
+  min-height: 1.5em;
+  margin: 0.5em 0 0 0;
+  font-size: 1em;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.hunt-feedback-error {
+  color: #c0392b;
+}
+
+.hunt-feedback-ok {
+  color: #27ae60;
+}
+
+.hunt-footer-actions {
+  margin-top: 2em;
+  text-align: right;
+  border-top: 1px solid rgba(128,128,128,0.2);
+  padding-top: 1em;
+}
+
+.hunt-reset {
+  min-width: 0;
+  opacity: 0.7;
+  font-size: 0.85em;
+}
+
+.hunt-reset:hover {
+  opacity: 1;
+}
+
+.hunt-finish-text p {
+  margin-bottom: 0.75em;
+  font-size: 1.1em;
+}
+
+.hunt-finish-text p:first-child {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.hunt-reentry p {
+  margin-bottom: 0.75em;
+}
+
+.hunt-reentry form {
+  margin: 1em 0;
+}
+
+.hunt-error p {
+  margin-bottom: 0.75em;
+}
+
+@media (min-width: 481px) {
+  .hunt-submit {
+    width: auto;
+    min-width: 10em;
+  }
+}
+</style>
+
+<!-- Hunt data injected as JSON — contains only ciphertext + answer_check hashes,
+     never plaintext future clues. Stage 1 clue is plaintext (entry point).
+     Subsequent clues are AES-GCM encrypted with SHA-256(normalize(prev_answer)). -->
+<script>
+var HUNT_DATA = {{ site.data.hunt | jsonify }};
+</script>
+
+<div class="hunt-wrapper">
+  <div id="hunt-app">
+    <p>Loading hunt…</p>
+    <noscript>
+      <div class="box">
+        <p>⚠️ This treasure hunt requires JavaScript to be enabled.</p>
+      </div>
+    </noscript>
+  </div>
+</div>
+
+<script src="{{ '/assets/js/hunt.js' | relative_url }}"></script>
