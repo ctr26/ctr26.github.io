@@ -35,6 +35,9 @@ exclude:
   - docs/
 
 # Site metadata
-  
-description: >
+url: "https://ctr26.github.io"
+author: Craig T. Russell
+description: >-
+  Craig T. Russell, PhD — Senior Machine Learning Scientist at Valence Labs (Recursion Pharmaceuticals),
+  building multi-modal virtual cell foundation models for drug discovery.
 
