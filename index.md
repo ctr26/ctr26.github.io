@@ -13,13 +13,13 @@ ML Research Scientist building **generative models that generalise to unseen bio
 
 **Senior Machine Learning Scientist — Valence Labs @ Recursion Pharmaceuticals**  
 London, UK • Oct 2024 – Present  
-- **Research engineering lead, ~30‑person research team:** Set technical direction and engineering standards across a multidisciplinary ML and biology group; **scale models to the cloud** for multi‑GPU training and distributed inference; foster collaborative coding — code review, reproducibility, shared tooling — to carry research prototypes into production.  
+- **Agentic biology:** Build **tool‑use systems grounded in real biological databases** — constrained decoding over **Ensembl/HGNC/ChEMBL** vocabularies, tool‑call verification against structured resources, retrieval grounding and verifier ensembles — producing explainable, multi‑source gene–gene hypotheses.  
+- **TxPert** *(Nature Biotechnology, 2026)*: Co‑author on a state‑of‑the‑art transcriptomic perturbation predictor conditioned on multiple biological knowledge graphs; owned benchmark‑task design, data curation and **OOD ablations**.  
+- **LLM fine‑tuning & reinforcement learning:** Post‑train multi‑modal LLMs over **knowledge graphs, literature and omics**; apply **RL** to align agent behaviour with verifiable biological objectives.  
 - **Generative out‑of‑distribution modelling:** Train **large diffusion transformers** to generate perturbational biology, targeting generalisation to **unseen** perturbations, cell types and their combinations rather than in‑distribution interpolation.  
 - **Gene expression + bioimage data:** Model **single‑cell and bulk RNA‑seq** jointly with **high‑content phenotypic imaging**, so each modality constrains the other where one alone leaves the prediction under‑determined.  
-- **LLM fine‑tuning & reinforcement learning:** Post‑train multi‑modal LLMs over **knowledge graphs, literature and omics**; apply **RL** to align agent behaviour with verifiable biological objectives.  
-- **Agentic biology:** Build **tool‑use systems grounded in real biological databases** — constrained decoding over **Ensembl/HGNC/ChEMBL** vocabularies, tool‑call verification against structured resources, retrieval grounding and verifier ensembles — producing explainable, multi‑source gene–gene hypotheses.  
 - **Active learning:** Design acquisition strategies that choose the next experiment under a fixed budget, closing the loop between model uncertainty and wet‑lab capacity.  
-- **TxPert** *(Nature Biotechnology, 2026)*: Co‑author on a state‑of‑the‑art transcriptomic perturbation predictor conditioned on multiple biological knowledge graphs; owned benchmark‑task design, data curation and **OOD ablations**.  
+- **Research engineering lead, ~30‑person research team:** Set technical direction and engineering standards across a multidisciplinary ML and biology group; **scale models to the cloud** for multi‑GPU training and distributed inference; foster collaborative coding — code review, reproducibility, shared tooling — to carry research prototypes into production.  
 - **Virtual screening:** Evaluation strategy and error analysis for proteome‑scale binding‑affinity screening.  
 - **Community:** Organiser, Virtual Cell Journal Club, bridging ML and wet‑lab teams.
 
