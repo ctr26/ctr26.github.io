@@ -3,8 +3,10 @@ title: Senior Machine Learning Scientist — Generative & Agentic Models for Bio
 layout: default
 ---
 
-London, UK • [linkedin.com/in/ctr26](https://linkedin.com/in/ctr26) • [github.com/ctr26](https://github.com/ctr26) • [Google Scholar](https://scholar.google.com/citations?user=XVt7BYQAAAAJ&hl=en) • [PDF](cv.pdf)  
+London, UK • [linkedin.com/in/ctr26](https://linkedin.com/in/ctr26) • [github.com/ctr26](https://github.com/ctr26) • [Google Scholar](https://scholar.google.com/citations?user=XVt7BYQAAAAJ&hl=en)  
 *Focus:* Generative & agentic models for biology • LLM post‑training • Out‑of‑distribution modelling • Virtual cells • Open to relocation (San Francisco)
+
+[Download as PDF](cv.pdf)
 
 ## Professional Summary
 ML Research Scientist building **generative models that generalise to unseen biology**, so that we can build the first virtual cell. Eight years applying machine learning to biological data, from light‑sheet microscopy and TB‑scale image archives to single‑cell transcriptomics and knowledge graphs, with papers in *Nature Biotechnology*, *NeurIPS* and *Nature Methods*. I write the research code and the infrastructure: tools other labs use, agents grounded in real biological databases, and training and inference on cloud and HPC.

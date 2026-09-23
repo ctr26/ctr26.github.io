@@ -33,7 +33,8 @@ exclude:
   - Dockerfile
   - docker-compose.yml
   - docs/
-  - scripts/
+  - cv-print.css
+  - cv-print.html
 
 # Site metadata
   
