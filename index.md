@@ -3,14 +3,11 @@ title: Senior Machine Learning Scientist — Generative & Agentic Models for Bio
 layout: default
 ---
 
-London, UK • [linkedin.com/in/ctr26](https://linkedin.com/in/ctr26) • [github.com/ctr26](https://github.com/ctr26) • [Google Scholar](https://scholar.google.com/citations?user=XVt7BYQAAAAJ&hl=en)  
+London, UK • [linkedin.com/in/ctr26](https://linkedin.com/in/ctr26) • [github.com/ctr26](https://github.com/ctr26) • [Google Scholar](https://scholar.google.com/citations?user=XVt7BYQAAAAJ&hl=en) • [PDF](cv.pdf)  
 *Focus:* Generative & agentic models for biology • LLM post‑training • Out‑of‑distribution modelling • Virtual cells • Open to relocation (San Francisco)
 
 ## Professional Summary
 ML Research Scientist building **generative models that generalise to unseen biology**, so that we can build the first virtual cell. Eight years applying machine learning to biological data, from light‑sheet microscopy and TB‑scale image archives to single‑cell transcriptomics and knowledge graphs, with papers in *Nature Biotechnology*, *NeurIPS* and *Nature Methods*. I write the research code and the infrastructure: tools other labs use, agents grounded in real biological databases, and training and inference on cloud and HPC.
-
-## Core Strengths
-Generative & OOD modelling • LLM fine‑tuning & post‑training • Agentic / tool‑use systems grounded in biological databases • Benchmark & evaluation design • Self‑supervised representation learning • Transcriptomics + high‑content imaging • Knowledge graphs & GNNs • Cloud/HPC MLOps • Open‑source scientific software • Teaching & mentoring
 
 ## Experience
 
@@ -33,11 +30,13 @@ Cambridge, UK • Dec 2022 – Oct 2024
 - **Cloud compute for biologists:** First author on **bia‑binder** *(Bioinformatics 2025)* — web‑native cloud compute alongside the Bio‑Image Archive.  
 - **MLOps:** Designed scalable pipelines processing **TB‑scale microscopy** across HPC and cloud; containerised workflows, automated experiment tracking.  
 
-**AI/ML Founding Engineer — Amun AI AB**  
+*Part‑time and consulting roles held alongside EMBL‑EBI, 2022 – 2024:*
+
+**AI/ML Founding Engineer (part‑time) — Amun AI AB**  
 Stockholm, Sweden • 2022 – 2024  
 - Built a **GKE/Kubernetes** model‑serving platform with **NVIDIA Triton/KServe**; supported **100+ models** for **30+ daily users** with auth, monitoring and autoscaling.
 
-**AI/ML Engineering Consultant — DeepMirror**  
+**AI/ML Engineering Consultant (part‑time) — DeepMirror**  
 Cambridge & London, UK • 2022 – 2024  
 - **MouseMindMapper:** Shipped a brain‑histology segmentation product generating **£50k annual revenue**; owned it end to end — data, training, packaging and docs.  
 - Wrote a high‑performance **C++ cheminformatics fingerprinting** library for production.
@@ -60,14 +59,10 @@ London, UK • 2018 – Dec 2019
 
 **PhD, Engineering — University of Cambridge** • 2014 – 2018 (EPSRC PES‑CDT)  
 *Thesis:* “Light‑sheet microscopy for tracking particles in large specimens”  
-- Designed and built a novel light‑sheet microscope with automated acquisition; algorithms for particle tracking, signal optimisation and micrometre‑scale tomography.  
-- Supervised 2× MRes and 1× BSc students.
+- Designed and built a novel light‑sheet microscope with automated acquisition; algorithms for particle tracking, signal optimisation and micrometre‑scale tomography. Supervised 2× MRes and 1× BSc students.
 
-**MRes, Photonics — University of Cambridge & UCL** • 2013 – 2014 (EPSRC Photonics CDT)  
-- Structured‑illumination microscopy reconstruction; Computer Vision, Quantum Mechanics, Photonics.
-
-**MSci, Physics (First‑Class Honours) — Nottingham Trent University** • 2009 – 2013  
-- Top physics graduate.
+**MRes, Photonics — University of Cambridge & UCL** • 2013 – 2014 • structured‑illumination microscopy reconstruction  
+**MSci, Physics (First‑Class Honours) — Nottingham Trent University** • 2009 – 2013 • top physics graduate
 
 ## Selected Publications
 
@@ -87,10 +82,8 @@ Full list on **[Google Scholar](https://scholar.google.com/citations?user=XVt7BY
 - **Virtual Cell Foundation Model** • Patent pending • 2024 (Recursion)
 - **TxPert: Transcriptomic Perturbation Prediction** • Patent pending • 2024 (Recursion)
 
-## Open Source (Selected)
-- **[bioimage_embed](https://github.com/uhlmanngroup/bioimage_embed)** — self‑supervised learning for biological images.  
-- **[ShapeEmbed](https://proceedings.neurips.cc/paper_files/paper/2025/hash/124cc3a6e8f563555c8bba9f5ded690f-Abstract-Conference.html)** — self‑supervised 2D contour quantification (NeurIPS 2025).  
-- Contributions to **napari**, **BioImage Model Zoo**, **Hypha Platform**, **DL4MicEverywhere**, **BIA Binder**, **COVID Workflow Manager**.
+## Open Source
+**[bioimage_embed](https://github.com/uhlmanngroup/bioimage_embed)** (author) • contributions to **napari**, **BioImage Model Zoo**, **Hypha Platform**, **DL4MicEverywhere**, **BIA Binder**, **COVID Workflow Manager**
 
 ## Skills
 
@@ -101,15 +94,9 @@ Full list on **[Google Scholar](https://scholar.google.com/citations?user=XVt7BY
 **Compute:** Multi‑GPU (A100/V100), CUDA, distributed training, SLURM, HPC, GCP/AWS  
 **MLOps/Infra:** Kubernetes, Docker, NVIDIA Triton, KServe, MLflow, CI/CD, Terraform; Nextflow, Snakemake, Airflow
 
-## Grants & Awards
-- **AI4LIFE** (2022) — co‑author of the successful **€5M** EU Horizon grant (federated bioimage AI)  
-- **EPSRC CDT Studentship** (2013–2018) — Photonic & Electronic Systems CDT (£120k)  
-- **Nuffield Research Bursary** (2012) — computer vision for liquid‑crystal flows
-
-## Teaching, Mentoring & Service
+## Grants, Teaching & Service
+- **Grants:** AI4LIFE (2022, €5M EU Horizon, co‑author) • EPSRC CDT Studentship (2013–2018, £120k) • Nuffield Research Bursary (2012)  
 - **Course lead:** Deep Learning for Bioimage Analysis (2019–2023), 40+ participants/year  
 - **Supervision:** 6 PhD students (AI & spatial biology) + 3 project students  
 - **Peer review:** Nature Methods, Scientific Reports, Journal of Microscopy, ISBI (2022, 2023), ICASSP (2024)  
 - **Talks:** FOM (2018, 2022, 2023), MMC (2018, 2022), CBIAS (2023)
-
-*References available upon request.*

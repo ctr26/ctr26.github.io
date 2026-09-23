@@ -33,6 +33,7 @@ exclude:
   - Dockerfile
   - docker-compose.yml
   - docs/
+  - scripts/
 
 # Site metadata
   
