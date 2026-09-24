@@ -82,9 +82,6 @@ The full list is on [Google Scholar](https://scholar.google.com/citations?user=X
 - **Virtual Cell Foundation Model**, patent pending, 2024 (Recursion)
 - **TxPert, transcriptomic perturbation prediction**, patent pending, 2024 (Recursion)
 
-## Open Source
-Author of [bioimage_embed](https://github.com/uhlmanngroup/bioimage_embed); contributor to napari, BioImage Model Zoo, Hypha Platform, DL4MicEverywhere, BIA Binder, and COVID Workflow Manager.
-
 ## Skills
 
 **ML and AI.** Diffusion transformers, generative modelling, fine-tuning and post-training foundation models, reinforcement learning, agents and tool use, constrained decoding and retrieval grounding, active learning, contrastive and self-supervised learning, OOD and uncertainty, evaluation and benchmark design  
