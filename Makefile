@@ -21,7 +21,9 @@ server: serve
 build:
 	$(BUNDLE) exec jekyll build
 
+# Needs pandoc and Chrome/Chromium on PATH (override with CHROME=/path/to/chrome)
 pdf:
+	@command -v pandoc >/dev/null || { echo "make pdf needs pandoc: https://pandoc.org/installing.html"; exit 1; }
 	LC_ALL=C.UTF-8 pandoc index.md -f commonmark_x -s -o cv-print.html --css cv-print.css \
 		-M title="Craig T. Russell, PhD" \
 		-M subtitle="$$(sed -n 's/^title: //p' index.md)"
@@ -30,7 +32,7 @@ pdf:
 	rm -f cv-print.html
 
 clean:
-	rm -rf _site .jekyll-cache .jekyll-metadata
+	rm -rf _site .jekyll-cache .jekyll-metadata cv.pdf cv-print.html
 
 install:
 	gem install jekyll bundler
