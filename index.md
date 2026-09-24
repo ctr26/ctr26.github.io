@@ -6,8 +6,6 @@ layout: default
 London, UK • [linkedin.com/in/ctr26](https://linkedin.com/in/ctr26) • [github.com/ctr26](https://github.com/ctr26) • [Google Scholar](https://scholar.google.com/citations?user=XVt7BYQAAAAJ&hl=en)  
 Generative and agentic models for biology • LLM post-training • out-of-distribution modelling • virtual cells • open to relocating to San Francisco
 
-[Download as PDF](cv.pdf)
-
 ## Summary
 I build generative models that generalise to unseen biology, with the aim of building the first virtual cell. I have spent eight years applying machine learning to biological data, from light-sheet microscopy and terabyte-scale image archives to single-cell transcriptomics and knowledge graphs, and published in *Nature Biotechnology*, *NeurIPS*, and *Nature Methods*. I write the research code and the infrastructure under it, from tools other labs use to agents grounded in real biological databases and training and inference on cloud and HPC.
 
