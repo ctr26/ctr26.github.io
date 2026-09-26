@@ -1,0 +1,44 @@
+name: Preview build
+
+# Builds the site with the same builder GitHub Pages uses, so a green
+# check here means the live build will succeed. The rendered site is
+# uploaded as an artifact for previewing before merge.
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: preview-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Build with Jekyll (GitHub Pages builder)
+      uses: actions/jekyll-build-pages@v1
+      with:
+        source: ./
+        destination: ./_site
+
+    - name: Upload preview
+      id: upload
+      uses: actions/upload-artifact@v4
+      with:
+        name: site-preview
+        path: _site
+        retention-days: 14
+
+    - name: Summary
+      run: |
+        echo "### Preview build passed" >> "$GITHUB_STEP_SUMMARY"
+        echo "Download: ${{ steps.upload.outputs.artifact-url }}" >> "$GITHUB_STEP_SUMMARY"
+        echo 'Unzip, then `python3 -m http.server -d site-preview`' >> "$GITHUB_STEP_SUMMARY"

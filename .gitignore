@@ -12,3 +12,5 @@ _site/
 
 # Vendored Vale linter styles (fetched via `vale sync`)
 .vale-styles/
+cv.pdf
+cv-print.html
