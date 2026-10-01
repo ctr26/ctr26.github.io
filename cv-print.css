@@ -18,3 +18,5 @@ h1.title { font-size: 17pt; margin: 0 0 1mm; text-align: left; }
 p.subtitle { font-size: 10.5pt; color: #444; margin: 0; text-align: left; }
 /* the site links to the PDF; hide that link inside the PDF */
 p:has(> a[href="cv.pdf"]) { display: none; }
+/* Keep a role heading (the paragraph before its bullets) on the same page as them. */
+p:has(+ ul) { break-after: avoid; }
