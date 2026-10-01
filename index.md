@@ -4,10 +4,10 @@ layout: default
 ---
 
 London, UK • [linkedin.com/in/ctr26](https://linkedin.com/in/ctr26) • [github.com/ctr26](https://github.com/ctr26) • [Google Scholar](https://scholar.google.com/citations?user=XVt7BYQAAAAJ&hl=en)  
-Generative and agentic models for biology • LLM post-training • out-of-distribution modelling • virtual cells • open to relocating to San Francisco
+Generative and agentic models for biology • LLM post-training • out-of-distribution modelling • virtual cells
 
 ## Summary
-I build generative models that generalise to unseen biology, with the aim of building the first virtual cell. I have spent eight years applying machine learning to biological data, from light-sheet microscopy and terabyte-scale image archives to single-cell transcriptomics and knowledge graphs, and published in *Nature Biotechnology*, *NeurIPS*, and *Nature Methods*. I write the research code and the infrastructure under it, from tools other labs use to agents grounded in real biological databases and training and inference on cloud and HPC.
+I build generative models that generalise to unseen biology, with the aim of building the first virtual cell. I apply machine learning to biological data, from light-sheet microscopy and terabyte-scale image archives to single-cell transcriptomics and knowledge graphs, and have published in *Nature Biotechnology*, *NeurIPS*, and *Nature Methods*. I write the research code and the infrastructure under it, from tools other labs use to agents grounded in real biological databases and training and inference on cloud and HPC.
 
 ## Experience
 
@@ -19,7 +19,7 @@ London, UK • Oct 2024 – present
 - Train large diffusion transformers to generate perturbational biology that generalises to perturbations, cell types, and combinations the model has never seen, rather than interpolating between ones it has.  
 - Model single-cell and bulk RNA-seq jointly with high-content phenotypic imaging, since each modality pins down what the other leaves open.  
 - Design active learning strategies that choose the next experiment under a fixed budget, closing the loop between model uncertainty and what the wet lab can run.  
-- Research engineering lead in a ~30-person research team; I set technical direction and engineering standards across ML and biology, scale training and inference across GPUs in the cloud, and encourage the code review, reproducibility, and shared tooling that carry research prototypes into production.  
+- Lead the engineering on a large scientific project; I set technical direction and engineering standards across ML and biology, scale training and inference across GPUs in the cloud, and encourage the code review, reproducibility, and shared tooling that carry research prototypes into production.  
 - Work on evaluation strategy and error analysis for proteome-scale binding-affinity screening.  
 - Organise the Virtual Cell Journal Club, which brings the ML and wet-lab teams together.
 
@@ -27,7 +27,6 @@ London, UK • Oct 2024 – present
 Cambridge, UK • Dec 2022 – Oct 2024  
 - Supervised 6 PhD students, and set the lab's coding standards, CI, and peer review.  
 - Created **[bioimage_embed](https://github.com/uhlmanngroup/bioimage_embed)** and co-authored **ShapeEmbed** (*NeurIPS* 2025), which learn contour and morphology representations without labels; both ship as production Python used by other labs.  
-- First author on **bia-binder** (*Bioinformatics* 2025), web-native cloud compute that sits beside the Bio-Image Archive.  
 - Designed scalable pipelines that process terabytes of microscopy across HPC and cloud, with containerised workflows and automated experiment tracking.
 
 *Part-time and consulting roles held alongside EMBL-EBI, 2022 – 2024*
@@ -67,20 +66,19 @@ Thesis on light-sheet microscopy for tracking particles in large specimens
 ## Selected Publications
 
 1. **TxPert**. Out-of-distribution transcriptomic perturbation prediction over biological knowledge graphs. *Nature Biotechnology* (2026), co-author. [doi:10.1038/s41587-026-03113-4](https://doi.org/10.1038/s41587-026-03113-4)
-2. **ShapeEmbed**. Self-supervised learning of 2D contour representations. *NeurIPS* (2025), second author. [proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/124cc3a6e8f563555c8bba9f5ded690f-Abstract-Conference.html)
-3. **bia-binder**. Web-native cloud compute for bioimage analysis. *Bioinformatics* (2025), *first author*. [doi:10.1093/bioinformatics/btaf412](https://doi.org/10.1093/bioinformatics/btaf412)
-4. **MIFA**. Metadata and accessibility standards for reusable AI training datasets in bioimaging. *Nature Methods* (2025), co-author. [doi:10.1038/s41592-025-02835-8](https://doi.org/10.1038/s41592-025-02835-8)
-5. **DL4MicEverywhere**. Reproducible, containerised deep learning for microscopy. *Nature Methods* (2024), co-author. [doi:10.1038/s41592-024-02295-6](https://doi.org/10.1038/s41592-024-02295-6)
-6. **CIR4MICS**. Synthetic ground truth for benchmarking image-analysis methods. *Bioinformatics* (2023), co-author. [doi:10.1093/bioinformatics/btad587](https://doi.org/10.1093/bioinformatics/btad587)
-7. **The COVID-19 Data Portal**. Rapid open data sharing for SARS-CoV-2 research. *Nucleic Acids Research* 49(W1) (2021), co-author. [doi:10.1093/nar/gkab417](https://doi.org/10.1093/nar/gkab417)
-8. **mmSIM**. Open toolbox for structured illumination microscopy. *Phil. Trans. R. Soc. A* (2021), *first author*. [doi:10.1098/rsta.2020.0353](https://doi.org/10.1098/rsta.2020.0353)
-9. **Frame-localisation OPT**. Reconstruction for optical projection tomography. *Scientific Reports* (2021), *first author*. [doi:10.1038/s41598-021-83454-z](https://doi.org/10.1038/s41598-021-83454-z)
+2. **ShapeEmbed**. Self-supervised learning of 2D contour representations. *NeurIPS* (2025), second author. [poster](https://neurips.cc/virtual/2025/poster/116558)
+3. **MIFA**. Metadata and accessibility standards for reusable AI training datasets in bioimaging. *Nature Methods* (2025), co-author. [doi:10.1038/s41592-025-02835-8](https://doi.org/10.1038/s41592-025-02835-8)
+4. **DL4MicEverywhere**. Reproducible, containerised deep learning for microscopy. *Nature Methods* (2024), co-author. [doi:10.1038/s41592-024-02295-6](https://doi.org/10.1038/s41592-024-02295-6)
+5. **CIR4MICS**. Synthetic ground truth for benchmarking image-analysis methods. *Bioinformatics* (2023), co-author. [doi:10.1093/bioinformatics/btad587](https://doi.org/10.1093/bioinformatics/btad587)
+6. **The COVID-19 Data Portal**. Rapid open data sharing for SARS-CoV-2 research. *Nucleic Acids Research* 49(W1) (2021), co-author. [doi:10.1093/nar/gkab417](https://doi.org/10.1093/nar/gkab417)
+7. **mmSIM**. Open toolbox for structured illumination microscopy. *Phil. Trans. R. Soc. A* (2021), *first author*. [doi:10.1098/rsta.2020.0353](https://doi.org/10.1098/rsta.2020.0353)
+8. **Frame-localisation OPT**. Reconstruction for optical projection tomography. *Scientific Reports* (2021), *first author*. [doi:10.1038/s41598-021-83454-z](https://doi.org/10.1038/s41598-021-83454-z)
 
 The full list is on [Google Scholar](https://scholar.google.com/citations?user=XVt7BYQAAAAJ&hl=en).
 
 ## Patents
-- **Virtual Cell Foundation Model**, patent pending, 2024 (Recursion)
-- **TxPert, transcriptomic perturbation prediction**, patent pending, 2024 (Recursion)
+- **Virtual Cell Foundation Model**, patent pending, 2025 (Recursion)
+- **TxPert, transcriptomic perturbation prediction**, patent pending, 2025 (Recursion)
 
 ## Skills
 
