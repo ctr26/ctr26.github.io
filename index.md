@@ -58,7 +58,9 @@ London, UK • 2018 – Dec 2019
 
 **PhD, Engineering, University of Cambridge** • 2014 – 2018 (EPSRC PES-CDT)  
 *Thesis on light-sheet microscopy for tracking particles in large specimens*  
-- Designed and built a **new light-sheet microscope** with automated acquisition, and wrote algorithms for particle tracking, signal optimisation, and micrometre-scale tomography. Supervised two MRes students and one BSc student.
+- Designed and built a **new light-sheet microscope**, and wrote the code that ran it; automated acquisition, **bead tracking** that aligned the **holographic optics**, and signal optimisation driven by what the tracker saw.  
+- Wrote **flOPT**, a tomographic reconstruction algorithm that recovers the sample pose from tracked fiducial beads and back-projects each ray, so it stays **robust to mechanical jitter and drift** where the Radon transform breaks down; published in *Scientific Reports* and released as open-source Python with OpenCV.  
+- Supervised two MRes students and one BSc student.
 
 **MRes, Photonics, University of Cambridge and UCL** • 2013 – 2014 • *structured illumination microscopy reconstruction*  
 **MSci, Physics (First-Class Honours), Nottingham Trent University** • 2009 – 2013 • *top physics graduate*
@@ -72,7 +74,7 @@ London, UK • 2018 – Dec 2019
 5. **CIR4MICS**. Synthetic ground truth for benchmarking image-analysis methods. *Bioinformatics* (2023), *co-author*. [doi:10.1093/bioinformatics/btad587](https://doi.org/10.1093/bioinformatics/btad587)
 6. **The COVID-19 Data Portal**. Rapid open data sharing for SARS-CoV-2 research. *Nucleic Acids Research* 49(W1) (2021), *co-author*. [doi:10.1093/nar/gkab417](https://doi.org/10.1093/nar/gkab417)
 7. **mmSIM**. Open toolbox for structured illumination microscopy. *Phil. Trans. R. Soc. A* (2021), *first author*. [doi:10.1098/rsta.2020.0353](https://doi.org/10.1098/rsta.2020.0353)
-8. **Frame-localisation OPT**. Reconstruction for optical projection tomography. *Scientific Reports* (2021), *first author*. [doi:10.1038/s41598-021-83454-z](https://doi.org/10.1038/s41598-021-83454-z)
+8. **Frame-localisation OPT (flOPT)**. Tomographic reconstruction from tracked fiducial beads, robust to mechanical jitter and drift. *Scientific Reports* (2021), *first author*. [doi:10.1038/s41598-021-83454-z](https://doi.org/10.1038/s41598-021-83454-z)
 
 The full list is on [Google Scholar](https://scholar.google.com/citations?user=XVt7BYQAAAAJ&hl=en).
 
