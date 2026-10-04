@@ -2,6 +2,11 @@ title: Craig T. Russell, PhD
 theme: minima
 markdown: kramdown
 
+# Header nav: only these pages (index.md keeps its long job title for the page and the PDF)
+header_pages:
+  - vibe.md
+  - vibe-coding.md
+
 # Minima settings
 minima:
   skin: auto  # Automatically switches between light and dark mode
