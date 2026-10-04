@@ -44,7 +44,7 @@ The practices that shape everything else.
 
 ### Worktrees
 - I don't `git checkout` between branches; every branch gets its own worktree.
-- Several features move in parallel without conflicts, and one workspace means one concern.
+- Several features move in parallel without stepping on each other's working tree (merge conflicts are still yours to resolve), and one workspace means one concern.
 
 ### Agents
 - Independent work runs in the background by default, so the main session stays free for steering rather than waiting.

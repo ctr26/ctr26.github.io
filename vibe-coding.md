@@ -59,7 +59,7 @@ The power is in the iteration. A typical flow runs
 4. **Refine** with "actually, use log scale on the y-axis" or "filter out controls first".
 5. **Commit** when you're happy.
 
-This is faster than writing from scratch and faster than searching Stack Overflow, because the AI has the full context of your project.
+This is faster than writing from scratch and faster than searching Stack Overflow, because the AI reads the parts of your project it needs as it goes.
 
 ## Teaching Claude your project with CLAUDE.md
 
