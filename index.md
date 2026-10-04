@@ -58,7 +58,7 @@ London, UK • 2018 – Dec 2019
 
 **PhD, Engineering, University of Cambridge** • 2014 – 2018 (EPSRC PES-CDT)  
 *Thesis on light-sheet microscopy for tracking particles in large specimens*  
-- Designed and built a **new light-sheet microscope**, and wrote the code that ran it. Automated acquisition, **bead tracking** to align the **holographic optics**, and signal optimisation driven by the tracker.  
+- Designed and built a **new light-sheet microscope**, and wrote the code that ran it. Automated acquisition, **bead tracking** for **homographic alignment** of the optics, and signal optimisation driven by the tracker.  
 - Wrote **flOPT**, a micrometre-scale tomographic reconstruction that recovers sample pose from tracked fiducial beads and back-projects each ray, so it stays robust to mechanical jitter and drift where the Radon transform breaks down. Published in *Scientific Reports*, open-source Python with OpenCV.  
 - Supervised two MRes students and one BSc student.
 
