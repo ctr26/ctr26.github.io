@@ -18,3 +18,5 @@ h1.title { font-size: 17pt; margin: 0 0 1mm; text-align: left; }
 p.subtitle { font-size: 10.5pt; color: #444; margin: 0; text-align: left; }
 /* Keep a role heading (the paragraph before its bullets) on the same page as them. */
 p:has(+ ul) { break-after: avoid; }
+/* pandoc already prints the job title as the document subtitle */
+.jobtitle { display: none; }

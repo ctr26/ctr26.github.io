@@ -3,6 +3,8 @@ title: Senior Machine Learning Scientist, generative and agentic models for biol
 layout: default
 ---
 
+<p class="jobtitle">Senior Machine Learning Scientist, generative and agentic models for biology</p>
+
 London, UK • [linkedin.com/in/ctr26](https://linkedin.com/in/ctr26) • [github.com/ctr26](https://github.com/ctr26) • [Google Scholar](https://scholar.google.com/citations?user=XVt7BYQAAAAJ&hl=en)  
 Generative and agentic models for biology • LLM post-training • out-of-distribution modelling • virtual cells
 
