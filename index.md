@@ -15,13 +15,12 @@ I build generative models that generalise to unseen biology, aiming to build the
 
 **Senior Machine Learning Scientist, Valence Labs @ Recursion Pharmaceuticals**  
 London, UK • Oct 2024 – present  
-- Build **agents that use real biological databases as tools**. They decode within Ensembl, HGNC, and ChEMBL vocabularies, check tool calls against structured resources, and use retrieval and verifier ensembles for grounding. Their gene–gene hypotheses are explainable and draw on several sources.  
+- Build **agents on black-box frontier LLMs through inference-time programming**, with real biological databases as their tools. They decode within Ensembl, HGNC, and ChEMBL vocabularies, check tool calls against structured resources, and use retrieval and verifier ensembles for grounding. Their gene–gene hypotheses are explainable and draw on several sources.  
 - Co-authored **TxPert** (*Nature Biotechnology*, 2026), a state-of-the-art transcriptomic perturbation predictor conditioned on multiple biological knowledge graphs. Owned **benchmark task design**, **data curation**, and the **out-of-distribution ablations**.  
-- **Post-train multimodal LLMs** over knowledge graphs, literature, and omics; use **reinforcement learning** to align agent behaviour with verifiable biological objectives.  
+- **Post-train multimodal LLMs** over knowledge graphs, literature, and omics; use **reinforcement learning** for explainable biology and for reasoning across orthogonal biological data.  
 - Train **large diffusion transformers** to generate perturbational biology that generalises to unseen perturbations, cell types, and combinations, rather than interpolating between ones it has.  
 - Model **single-cell and bulk RNA-seq** jointly with **high-content phenotypic imaging**; each modality pins down what the other leaves open.  
-- Design **active learning** strategies to choose the next experiment under a fixed budget, linking model uncertainty to experiments the wet lab can run.  
-- **Lead the engineering** on a large scientific project. Set technical direction and engineering standards across ML and biology; scale training and inference across **GPUs in the cloud**; promote code review, reproducibility, and shared tooling to carry research prototypes into production.  
+- **Lead the engineering** on a scientific project of **12 people at peak**. Balance rapid hypothesis testing against the core capabilities that let colleagues repeat each other's work without friction; set standards across ML and biology; scale training and inference across **GPUs in the cloud**.  
 - Work on **evaluation strategy and error analysis** for proteome-scale binding-affinity screening.  
 - Organise the **Virtual Cell Journal Club**, bringing ML and wet-lab teams together.
 
@@ -43,7 +42,7 @@ Cambridge and London, UK • 2022 – 2024
 - Wrote a high-performance **C++ cheminformatics fingerprinting library** for production.
 
 **Data Scientist, Brazma Group, EMBL-EBI**  
-Cambridge, UK • Dec 2019 – Dec 2023  
+Cambridge, UK • Dec 2019 – Dec 2023, held alongside the Uhlmann post from Dec 2022  
 - Co-authored the successful **€5M AI4LIFE grant** for federated bioimage AI infrastructure; contributed to its platform architecture and model-sharing strategy.  
 - Drove large-scale AI microscopy analyses in the **Image Data Resource**; worked with *Google Cloud* on representation learning.  
 - Taught an annual deep learning course to **40+ researchers**, from PhD students to PIs.
@@ -60,8 +59,8 @@ London, UK • 2018 – Dec 2019
 
 **PhD, Engineering, University of Cambridge** • 2014 – 2018 (EPSRC PES-CDT)  
 *Thesis on light-sheet microscopy for tracking particles in large specimens*  
-- Designed and built a **new light-sheet microscope**, and wrote the code that ran it. Automated acquisition, **bead tracking** for **homographic alignment** of the optics, and signal optimisation driven by the tracker.  
-- Wrote **flOPT**, a micrometre-scale tomographic reconstruction that recovers sample pose from tracked fiducial beads and back-projects each ray, so it stays robust to mechanical jitter and drift where the Radon transform breaks down. Published in *Scientific Reports*, open-source Python with OpenCV.  
+- Designed and built a **homographically generated light-sheet microscope**, and wrote the code that ran it; automated acquisition, signal optimisation, and **bead tracking** that measured the material properties of developing zebrafish.  
+- Wrote **flOPT**, micron-scale tomographic reconstruction that estimates the sample pose from fiducial beads and applies the exact transform, so it is robust to angular and mechanical drift where the Radon transform breaks down. Published in *Scientific Reports*, open-source Python with OpenCV.  
 - Supervised two MRes students and one BSc student.
 
 **MRes, Photonics, University of Cambridge and UCL** • 2013 – 2014 • *structured illumination microscopy reconstruction*  
@@ -86,7 +85,7 @@ The full list is on [Google Scholar](https://scholar.google.com/citations?user=X
 
 ## Skills
 
-**ML and AI.** Diffusion transformers, generative modelling, fine-tuning and post-training foundation models, reinforcement learning, agents and tool use, constrained decoding and retrieval grounding, active learning, contrastive and self-supervised learning, OOD and uncertainty, evaluation and benchmark design  
+**ML and AI.** Diffusion transformers, generative modelling, fine-tuning and post-training foundation models, reinforcement learning, agents and tool use, constrained decoding and retrieval grounding, contrastive and self-supervised learning, OOD and uncertainty, evaluation and benchmark design  
 **Frameworks.** PyTorch, Lightning, Hugging Face, Pyro, TensorFlow, scikit-learn  
 **Biology and data.** Single-cell and bulk RNA-seq, high-content and phenotypic imaging, histopathology, GNNs, knowledge graphs; UniProt, PDB, Ensembl, HGNC, NCBI, ChEMBL  
 **Languages.** Python (primary), R, C++, Rust, MATLAB, Java  
